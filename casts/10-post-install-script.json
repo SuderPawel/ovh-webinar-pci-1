@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 10.643106,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.35674,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      8.2e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.01113,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      1.01039,
+      "\u001b[7mssh ubuntu@145.239.29.199\u001b[27m"
+    ],
+    [
+      0.576602,
+      "\u001b[25D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m \u001b[27mu\u001b[27mb\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27mu\u001b[27m@\u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m9\u001b[27m.\u001b[27m1\u001b[27m9\u001b[27m9"
+    ],
+    [
+      4.6e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000123,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000842,
+      "\u001b]2;ssh ubuntu@145.239.29.199\u0007\u001b]1;ubuntu@145.239.29.199\u0007"
+    ],
+    [
+      1.048354,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n"
+    ],
+    [
+      0.001118,
+      "\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n"
+    ],
+    [
+      0.066164,
+      "\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Thu Jan 18 14:16:35 2018 from 109.190.254.6\r\r\n"
+    ],
+    [
+      0.022984,
+      "\u001b]0;ubuntu@serwer-3: ~\u0007\u001b[01;32mubuntu@serwer-3\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.684404,
+      "s"
+    ],
+    [
+      0.10395,
+      "u"
+    ],
+    [
+      0.104434,
+      "d"
+    ],
+    [
+      0.096072,
+      "o"
+    ],
+    [
+      0.103132,
+      " "
+    ],
+    [
+      0.208811,
+      "l"
+    ],
+    [
+      0.093786,
+      "s"
+    ],
+    [
+      0.068446,
+      " "
+    ],
+    [
+      0.381521,
+      "/"
+    ],
+    [
+      0.163534,
+      "r"
+    ],
+    [
+      0.111645,
+      "o"
+    ],
+    [
+      0.125335,
+      "o"
+    ],
+    [
+      0.119743,
+      "t"
+    ],
+    [
+      0.168601,
+      "\r\n"
+    ],
+    [
+      0.008993,
+      "test\r\n"
+    ],
+    [
+      0.002089,
+      "\u001b]0;ubuntu@serwer-3: ~\u0007\u001b[01;32mubuntu@serwer-3\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.912023,
+      "l"
+    ],
+    [
+      0.096731,
+      "s"
+    ],
+    [
+      0.092789,
+      " "
+    ],
+    [
+      0.289774,
+      "/"
+    ],
+    [
+      0.257049,
+      "t"
+    ],
+    [
+      0.095783,
+      "m"
+    ],
+    [
+      0.138693,
+      "p"
+    ],
+    [
+      0.484639,
+      "\r\n\u001b[0m\u001b[01;34msystemd-private-c629a77691624f2d9e07c4db1b8f30bd-systemd-timesyncd.service-8zNqfn\u001b[0m\u001b[K\r\ntest\r\n\u001b]0;ubuntu@serwer-3: ~\u0007\u001b[01;32mubuntu@serwer-3\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.7,
+      "logout\r\n"
+    ],
+    [
+      0.002951,
+      "Connection to 145.239.29.199 closed.\r\r\n"
+    ],
+    [
+      0.002493,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.00025,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.014555,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      5.9e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.904433,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

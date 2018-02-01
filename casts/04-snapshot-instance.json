@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 22.914656,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.371574,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      0.000101,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.013731,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      0.000244,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.0001,
+      "\u001b[?2004h"
+    ],
+    [
+      0.635727,
+      "\u001b[7mssh ubuntu@145.239.28.185\u001b[27m"
+    ],
+    [
+      0.452885,
+      "\u001b[25D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m \u001b[27mu\u001b[27mb\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27mu\u001b[27m@\u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m8\u001b[27m.\u001b[27m1\u001b[27m8\u001b[27m5"
+    ],
+    [
+      6.6e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001133,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.506734,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\n"
+    ],
+    [
+      7.5e-05,
+      "Last login: Mon Jan 22 19:01:52 2018 from 82.143.153.24\r\r\n"
+    ],
+    [
+      0.047799,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "uptime"
+    ],
+    [
+      0.348426,
+      "\r\n"
+    ],
+    [
+      0.000696,
+      " 19:02:11 up 3 min,  1 user,  load average: 0.00, 0.00, 0.00\r\n"
+    ],
+    [
+      0.000274,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "su"
+    ],
+    [
+      0.000468,
+      "d"
+    ],
+    [
+      0.00013,
+      "o"
+    ],
+    [
+      0.000265,
+      " t"
+    ],
+    [
+      0.001265,
+      "ai"
+    ],
+    [
+      0.000548,
+      "l"
+    ],
+    [
+      0.000114,
+      " "
+    ],
+    [
+      0.011637,
+      "-f /var/log/syslog"
+    ],
+    [
+      0.482857,
+      "\r\n"
+    ],
+    [
+      0.004266,
+      "Jan 22 19:02:03 serwer-1 systemd[1]: Created slice User Slice of ubuntu.\r\nJan 22 19:02:03 serwer-1 systemd[1]: Starting User Manager for UID 1000...\r\nJan 22 19:02:03 serwer-1 systemd[1]: Started Session 2 of user ubuntu.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Sockets.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Timers.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Paths.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Basic System.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Default.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Startup finished in 10ms.\r\nJan 22 19:02:03 serwer-1 systemd[1]: Started User Manager for UID 1000.\r\n"
+    ],
+    [
+      2.3,
+      "packet_write_wait: Connection to 145.239.28.185 port 22: Broken pipe\r\n"
+    ],
+    [
+      0.002985,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000335,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      3.3e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.014191,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      9.2e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "ssh ubuntu@145.239.28.185"
+    ],
+    [
+      0.573378,
+      "\u001b[?1l\u001b>\u001b[?2004l"
+    ],
+    [
+      4.9e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000651,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.493979,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Mon Jan 22 19:02:03 2018 from 82.143.153.24\r\r\n"
+    ],
+    [
+      0.056383,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.103672,
+      "u"
+    ],
+    [
+      0.146412,
+      "p"
+    ],
+    [
+      0.111069,
+      "t"
+    ],
+    [
+      0.096399,
+      "i"
+    ],
+    [
+      0.182046,
+      "m"
+    ],
+    [
+      0.117726,
+      "e"
+    ],
+    [
+      0.167268,
+      "\r\n"
+    ],
+    [
+      0.001094,
+      " 19:03:18 up 4 min,  2 users,  load average: 0.00, 0.00, 0.00\r\n"
+    ],
+    [
+      0.000705,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "su"
+    ],
+    [
+      0.000516,
+      "do "
+    ],
+    [
+      0.000423,
+      "t"
+    ],
+    [
+      0.000169,
+      "a"
+    ],
+    [
+      0.000676,
+      "i"
+    ],
+    [
+      0.002966,
+      "l "
+    ],
+    [
+      0.000345,
+      "-f /var/log/syslog"
+    ],
+    [
+      0.633788,
+      "\r\n"
+    ],
+    [
+      0.008789,
+      "Jan 22 19:02:03 serwer-1 systemd[1480]: Reached target Sockets.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Timers.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Paths.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Basic System.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Reached target Default.\r\nJan 22 19:02:03 serwer-1 systemd[1480]: Startup finished in 10ms.\r\nJan 22 19:02:03 serwer-1 systemd[1]: Started User Manager for UID 1000.\r\nJan 22 19:03:15 serwer-1 systemd[1]: Started Session 3 of user ubuntu.\r\nJan 22 19:03:40 serwer-1 systemd[1]: Time has been changed\r\nJan 22 19:03:40 serwer-1 systemd[1480]: Time has been changed\r\n"
+    ],
+    [
+      2.3,
+      "^C"
+    ],
+    [
+      0.001474,
+      "\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.974987,
+      "logout\r\n"
+    ],
+    [
+      0.002009,
+      "Connection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.001568,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.00018,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      3.1e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.013276,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.509911,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

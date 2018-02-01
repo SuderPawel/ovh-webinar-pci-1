@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webinar PCI #1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <textarea id="source">
+class: center, bottom, regular, title
+
+# Jak zacząć z OVH
+
+# Public Cloud?
+
+Paweł Suder
+
+31.01.2018
+
+???
+_Dzień dobry_
+
+Jestem Paweł Suder.
+
+Dzisiejszy temat prezentacji to "Jak zacząć z OVH Public Cloud?".
+
+Z prawej strony prezentacji znaduje się panel, gdzie można zadawać pytania, do czego bardzo zachęcam.
+
+Na końcu prezentacji będę miał chwilę na odpowiedzi.
+
+Gdybym jednak nie zdążył, odpowiedzi postaram się przesłać mailem.
+
+---
+
+class: center, middle, regular
+
+-----
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="images/photo.jpg" class="img-thumbnail rounded" style="width: 80%;"></img>
+    </div>
+    <div class="col" style="text-align: left;">
+      <h3>Paweł Suder</h3>
+      <p>DevOps w zespole Public Cloud OVH</p>
+      <p>Motocyklista & python deweloper</p>
+      <p>Więcej informacji na pawel.suder.info</p>
+    </div>
+  </div>
+</div>
+
+-----
+
+???
+
+Na codzień pracuję przy rozwijaniu OpenStacka na potrzeby Public Cloud.
+
+W wolnych chwilach, w ciepłe, bezdeszczowe dni, wyjeżdżam za miasto, na moto.
+
+---
+class: center, middle, regular
+
+## OVH w liczbach
+
+-----
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="images/img01.png"></img>
+    </div>
+    <div class="col">
+      <img src="images/img02.png"></img>
+    </div>
+    <div class="col">
+      <img src="images/img03.png"></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Start w 1999 r.
+    </div>
+    <div class="col">
+      W Polsce od 2004 r.
+    </div>
+    <div class="col">
+      Około 2400 pracowników
+    </div>
+  </div>
+</div>
+
+-----
+
+???
+
+Kilka zdań o firmie:
+
+* Firma została założona przez Octava Klabę w 1999 r. w Paryżu.
+* Zaczęło się od 10 wypożyczonych serwerów pod web hosting.
+* Bardzo szybko okazało się, że potrzeba więcej miejsca oraz bardziej elastycznych rozwiązań, by sprostać oczekiwaniom klientów.
+* Od 2004 r. działa biuro OVH we Wrocławiu.
+* Od zeszłego roku działa także centrum danych w Warszawie.
+* Na chwilę obecną w firmie zatrudnionych jest ponad 2 tysiące osób.
+* We Wrocławiu zatrudnionych nieco ponad 70 osób.
+* Planujemy powiększenie oddziału we Wrocławiu do 150 osób.
+
+---
+class: center, middle, regular
+
+## OVH w liczbach
+
+-----
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="images/img04.png" style="heigth: 50%; width: 50%;"></img>
+    </div>
+    <div class="col">
+      <img src="images/img05.png"></img>
+    </div>
+    <div class="col">
+      <img src="images/img04.png" style="heigth: 50%; width: 50%;"></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Ponad 1 mln klientów
+    </div>
+    <div class="col">
+      Ponad 60% klientów to profesjonaliści i resellerzy
+    </div>
+    <div class="col">
+      Klienci z blisko 140 krajów
+    </div>
+  </div>
+</div>
+
+-----
+
+???
+
+* Obecnie mamy ponad 1 mln klientów.
+* Ponad połowa to firmy dostarczające usług swoim klientom.
+
+---
+class: center, middle, regular
+
+## OVH na mapie
+
+-----
+
+![](images/map.jpg)
+
+-----
+
+???
+
+* Centra OVH znajdują się głównie we Francji.
+* Od zeszłego roku, centra znajdują się także w innych krajach Europy, jak w Polsce (Warszawie, o czym wspominałem), Niemczech (we Frankfurcie) oraz Wielkiej Brytanii(Londynie).
+* Od paru miesięcy, sukcesywnie wchodzimy na rynek Stanów Zjednoczonych.
+
+---
+class: regular
+
+## Agenda
+
+-----
+
+Obsługa projektu Public Cloud przy pomocy panelu klienta OVH
+
+- Podstawowa konfiguracja projektu
+- Uruchomienie instancji
+- Wykonanie snapshot'u instancji
+- Obsługa dodatkowych dysków
+- Wykonanie snapshot'u dysku
+- Obsługa prywatnych sieci
+- Dodatkowe operacje z poziomu panelu
+
+???
+
+Przejdźmy do prezentacji.
+
+W trakcie prezentacji:
+
+* przedstawię obsługę projektu cloud przy użyciu panelu klienta
+* zaprezentuję podstawowe operacje związane z zarządzaniem instancji
+* pokażę, jak korzystać z sieci prywatnych
+
+---
+class: center, middle, regular
+
+## Projekt Public Cloud
+
+-----
+
+![Widok projektu](dumps/Zrzut ekranu 2018-01-17 o 09.13.06.png)
+
+-----
+
+_Widok pustego projektu cloud_
+
+???
+
+Oto jak wygląda pusty projekt cloud z włączonym vRackiem.
+
+---
+class: regular
+
+## Konfiguracja projektu
+
+-----
+
+Podstawowa konfiguracja projektu wymaga
+
+- wykonania lub dodania klucza publicznego SSH
+
+-----
+
+![Dodanie klucza](dumps/Zrzut ekranu 2018-01-22 o 19.12.01.png)
+
+???
+
+Co należy wykonać po utworzeniu projektu, to wygenerować klucz SSH na swoim komputerze, jeśli go nie ma, a następnie dodać część publiczną klucza do projektu, poprzez zakładkę "Klucz SSH".
+
+Klucz ten będzie wykorzystywany do logowania się na instancję.
+
+**Uwaga** Ten klucz nie jest widoczny z poziomu OpenStack API, jest on widoczny tylko w panelu klienta.
+
+---
+class: center, middle, regular
+
+# Pierwsza instancja
+
+???
+
+Po dodaniu klucza SSH, przejdźmy do uruchomienia pierwszej instancji.
+
+---
+class: regular
+
+## Pierwsza instancja
+
+Uruchomienie pierwszej instancji w ramach projektu:
+
+- przy uruchomieniu instancji należy określić:
+ - nazwę
+ - region
+ - obraz bazowy
+ - typu serwera
+ - klucz SSH
+- możliwe jest także podanie:
+ - ilości instancji do uruchomienia
+ - skryptu, który uruchomi się po uruchomieniu systemu
+ - wskazanie do której prywatnej sieci instancja ma zostać podłączona
+
+???
+
+Do uruchomienia instancji potrzebne jest określenie: nazwy, regionu, obrazu bazowego, typu serwera oraz klucza SSH.
+
+O poszczególnych elementach opowiem przy następnych slajdach.
+
+Dodatkowe opcje konfiguracyjne zostaną przedstawione i wyjaśnione w trakcie prezentacji.
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Menu projektu" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.13.21.png"></img>
+
+-----
+
+_Widok menu projektu_
+
+???
+
+Aby uruchomić nową instancję, należy w widoku infrastruktury projektu, wybrać z menu "Dodaj serwer".
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Konfiguracja instancji" style="width: 70%;" src="dumps/Zrzut ekranu 2018-01-22 o 09.22.08.png"></img>
+
+-----
+
+_Opcje konfiguracyjne przy uruchomieniu instancji_
+
+???
+
+Tworząc instację, należy wybrać region, obraz bazowy i typ serwera.
+
+Przy uruchomieniu instancji określamy także sposób naliczania opłat - godzinowy lub miesięczny. Istnieje możliwość późniejszej zmiany sposobu naliczania opłat, z godzinowego na miesięczny. Opłacając instancję w rozliczeniu miesięcznym, kwota jest o połowę niższa, w stosunku do tej, jaką zapłacilibyśmy, przy rozliczaniu za godziny przez miesiąc.
+
+Czym jest region?
+
+* jest to DC(centrum danych), w ramach którego znajdują się fizyczne maszyny, na których uruchamiane są instancje, czyli serwery
+* w panelu klienta widoczne są instancje ze wszystkich regionów
+
+Czym jest obraz bazowy?
+
+* jest to dysk, z którego jest uruchamiana instancja
+* dla każdej z instancji, tworzony jest oddzielny dysk podstawowy, w oparciu o ten obraz
+* możliwe jest wykonanie własnych obrazów, wykonując snapshoty działającej instancji
+
+Czym jest typ serwera?
+
+* jest to definicja zasobów, z którymi uruchamiana jest instancja
+* określa przede wszystkim ilość rdzeni, wielkość pamięci operacyjnej oraz rozmiar podstawowego dysku instancji
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Wybór regionu" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.26.52.png"></img>
+
+-----
+
+_Dostępne regiony_
+
+???
+
+Kilka zdań o regionach:
+
+* instancje można uruchomić w wielu regionach
+* w regionach mogą być dostępne różne typy serwerów
+* ceny tych samych typów serwerów, mogą się różnić między regionami
+* w różnych regionach mogą być dostępne różne wersje OpenStack API
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Wybór obrazu" style="width: 40%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.27.09.png"></img>
+
+-----
+
+_Dostępne obrazy bazowe_
+
+???
+
+Kilka zdań o obrazach bazowych:
+
+* we wszystkich regionach, OVH udostępnia takie same obrazy bazowe
+* tworząc własne obrazy, czyli snapshoty instancji, należy mieć na uwadze, że obrazy między regionami nie są przesyłane
+ * snapshot(obraz) będzie dostępny w regionie, w którym działała instancja, z której został wykonany snapshot(obraz)
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Wybór typu" style="width: 35%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.27.19.png"></img>
+
+-----
+
+_Typy instancji_
+
+???
+
+Kilka zdań o typach instancji:
+
+* przy wyborze typu instancji, istnieje możliwość wyboru określonej liczby rdzeni CPU, ilości pamięci RAM oraz wielkości dysku
+* każdy z typów ma swoją nazwę i stanowi zestaw parametrów, które warunkują z jakimi parametrami zostanie uruchomiona instancja
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Wybór typu" style="width: 35%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.27.28.png"></img>
+
+-----
+
+_Typy instancji_
+
+???
+
+* w widoku panelu klienta, typy pogrupowane są w następujące zestawy:
+ * zastosowań ogólnych
+ * specjalistyczne, jak np. instancje posiadające karty GPU
+ * sandbox, czyli takie, które są uruchomione na hostach, na których instancje współdzielą zasoby
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Wybór typu" style="width: 70%;" src="dumps/Zrzut ekranu 2018-01-22 o 09.22.56.png"></img>
+
+-----
+
+_Typy instancji_
+
+???
+
+Kilka zdań o typach do zastosowań ogólnych:
+
+* w odróżnieniu od typów sandbox, typy do zastosowań ogólnych posiadają gwarancję co do ilości zasobów, dla każdej instancji
+* wśród typów zastosowań ogólnych, wyróżniamy mające podwyższone taktowanie CPU, większą ilości pamięci RAM oraz posiadające zrównoważone stosunek zasobów CPU/RAM
+* typy ogólne mają także odpowiedniki typu flex
+* wszystkie typy flex posiadają dysk jednej wielkości 50GB, co pozwala na elastyczne zwiększanie lub zmniejszanie ilości zasobów
+* zmniejszenie ilości zasobów, przy typach nie-flex, nie jest możliwe, bowiem wymagałoby to redukcji rozmiaru dysku
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Wybór klucza" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-22 o 19.19.31.png"></img>
+
+-----
+
+_Wybór klucza_
+
+???
+
+Do uruchomienia instancji, wymagane jest wybranie klucza SSH, który będzie używany do logowania na domyślne konto użytkownika.
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Dodatkowe opcje" style="width: 35%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.27.50.png"></img>
+
+-----
+
+_Dodatkowe opcje konfiguracyjne_
+
+???
+
+Dodatkowo, możliwe jest określenie liczby instancji do uruchomienia, podanie skryptu do konfiguracji instancji (wykonywanego po uruchomieniu systemu) czy określenie sieci prywatnej, do jakiej ma zostać instancja podłączona.
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Uruchamianie instancji" style="width: 90%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.28.19.png"></img>
+
+-----
+
+_Uruchamianie instancji_
+
+???
+
+W trakcie uruchamiania instancji, w panelu będzie widoczny komunikat, o aktywacji instancji.
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<img alt="Instancja uruchomiona" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.29.51.png"></img>
+
+-----
+
+_Dane do logowanie na uruchomioną instancję_
+
+???
+
+Po chwili, gdy instancja będzie gotowa, pojawi się komunikat, w jaki sposób możemy się zalogować.
+
+---
+class: center, middle, regular
+
+## Pierwsza instancja
+
+-----
+
+<div>
+  <asciinema-player src="casts/01-ssh-instance.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, na którym jest widoczne, że na nowo utworzonej instancji, jest określona liczba procesorów, ilości pamięci operacyjnej oraz określonej wielkości dysk twardy.
+
+```
+lscpu | grep -e Architecture -e CPU -e Thread -e Core
+free -m
+lsblk
+```
+
+---
+class: center, middle, regular
+
+# Powiększenie instancji
+
+???
+
+Może się zdarzyć, że działającą instancję, zechcemy powiększyć.
+
+---
+class: center, middle, regular
+
+## Powiększenie instancji
+
+-----
+
+<img alt="Zmiana parametrów instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.35.20.png"></img>
+
+-----
+
+_Zmiana parametrów instancji_
+
+???
+
+Aby zmienić parametry instancji, należy pamiętać o tym, że instancja zostanie zatrzymana i włączona ponownie.
+
+Przed rozpoczęciem zmiany rozmiaru, zalecane jest zatrzymanie aplikacji oraz odmontowanie partycji znajdujących się na woluminach podłączonych do instancji.
+
+O woluminach powiem w dalszej części prezentacji.
+
+Aby zmienić rozmiar, należy wybrać z menu instancji, opcję "Zmień typ serwera".
+
+---
+class: center, middle, regular
+
+## Powiększenie instancji
+
+-----
+
+<img alt="Zmiana parametrów instancji" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.35.47.png"></img>
+
+-----
+
+_Zmiana parametrów instancji_
+
+???
+
+Tak jak już wspominałem, nie jest także możliwe, by zmniejszyć ilość zasobów, jakie zostały dotychczas przydzielone instancji, o ile nie jest to typ flex.
+
+Z tego co sprawdziłem, to jest możliwe przejście z instancji typu sandbox na typ do zastosowań ogólnych. W przeciwnym kierunku nie jest to już możliwe.
+
+---
+class: center, middle, regular
+
+## Powiększenie instancji
+
+-----
+
+<img alt="Zmiana parametrów instancji" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.35.58.png"></img>
+
+-----
+
+_Zmiana parametrów instancji_
+
+???
+
+W trakcie zmiany rozmiaru, instancja zostanie wyłączona i włączona ponownie, o czym jesteśmy informowani, przed zatwierdzeniem zmian.
+
+---
+class: center, middle, regular
+
+## Powiększenie instancji
+
+-----
+
+<img alt="Zmiana parametrów instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.37.27.png"></img>
+
+-----
+
+_Zmiana parametrów instancji_
+
+???
+
+W trakcie zmiany, w panelu będzie widoczne, że instancja jest niedostępna.
+
+---
+class: center, middle, regular
+
+## Powiększenie instancji
+
+-----
+
+<img alt="Zmiana parametrów instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.50.28.png"></img>
+
+-----
+
+_Zmiana parametrów instancji_
+
+???
+
+Po chwili, w panelu będzie widoczne, że instancja ma inny typ, gdyż ma inną liczbę rdzeni, ilość pamięci oraz inną wielkość dysku.
+
+---
+class: center, middle, regular
+
+## Powiększenie instancji
+
+-----
+
+<div>
+  <asciinema-player src="casts/02-resize-instance.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, na którym jest zauważalne, że po ponownym zalogowaniu, parametry instancji są inne: liczba procesorów jest inna, ilość pamięci operacyjnej jest większa oraz dysk został powiększony. Co więcej, rozmiar systemu plików także został rozszerzony. Ta operacja zależna jest od typu i konfiguracji systemu operacyjnego. Nie każdy system wykonuje rozszerzenie po wykryciu zmiany rozmiaru dysku.
+
+```
+sudo tail -f /var/log/syslog
+lscpu | grep -e Architecture -e CPU -e Thread -e Core
+free -m
+lsblk
+df -h
+```
+
+---
+class: center, middle, regular
+
+# Rescue instancji
+
+???
+
+Może się zdarzyć, że instancję należy uruchomić w trybie rescue.
+
+---
+class: center, middle, regular
+
+## Rescue instancji
+
+-----
+
+<img alt="Rescue instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.55.38.png"></img>
+
+-----
+
+_Rescue instancji_
+
+???
+
+Tego typu operację wykonujemy głównie, gdy instancja nie uruchamia się tak, jak powinna, lub zapomnieliśmy hasła, czy straciliśmy klucz SSH.
+
+Czasami jest to także przydatne do zmodyfikowania konfiguracji systemu, zmiany ustawień sieciowych, reguł firewall czy parametrów serwerów SSH.
+
+Aby rozpocząć proces rescue, wybieramy z menu instancji, opcję "Restartuj do trybu rescue".
+
+---
+class: center, middle, regular
+
+## Rescue instancji
+
+-----
+
+<img alt="Wybór obraz do rescue instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.55.49.png"></img>
+
+-----
+
+_Wybór obrazu do rescue instancji_
+
+???
+
+Przy rescue instancji:
+
+* domyślnie wybranym obrazem, jest obraz dostarczony przez OVH
+* możliwe jest uruchomienie innego dostępnego obrazu
+* uruchomienie w trybie rescue, nie spowoduje nadpisanie danych na dysku instancji
+* dysk instancji zostanie podłączony, jako drugi w kolejności
+
+---
+class: center, middle, regular
+
+## Rescue instancji
+
+-----
+
+<img alt="Rescue instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 09.56.15.png"></img>
+
+-----
+
+<img alt="Rescue instancji" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.07.02.png"></img>
+
+-----
+
+_Rescue instancji_
+
+???
+
+* wybierając obraz systemu, należy zwrócić uwagę na to, jaki jest domyślny użytkownik dla tego systemu
+* w moim przykładzie użyłem obrazu Debian, gdzie domyślnym użytkownikiem do logowania jest `debian`, co widać na ekranie
+
+---
+class: center, middle, regular
+
+## Rescue instancji
+
+-----
+
+<div>
+  <asciinema-player src="casts/03-rescue-instance.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, gdzie jest widoczne, że dla instacji, która jest w trybie rescue, jest inny klucz SSH serwera oraz, że są dwa dyski.
+
+Drugi dysk, to dysk podstawowy instacji.
+
+Pierwsze co, to loguję się na instację i zauważam, że utraciłem do niej połączenie SSH. Uruchamiam instancję w trybie rescue. Muszę chwilę odczekać, aż instancja się uruchomi i serwer SSH będzie działał. Po chwili zauważam, że klucz serwera SSH jest inny. Potrzebuję zmodyfikować moją lokalną konfigurację klienta SSH. Loguję się, sprawdzam dyski, tworzę punkt montowania, montuje i sprawdzam rozmiar oraz zawartość.
+
+```
+sudo tail -f /var/log/syslog
+ssh-keygen -R 145.239.28.185
+lsblk
+df -h | grep sd
+sudo mkdir /mnt/root
+sudo mount /dev/sdb1 /mnt/root
+lsblk
+df -h | grep sd
+ls /mnt/root
+sudo umount /dev/sdb1
+```
+
+---
+class: center, middle, regular
+
+# Snapshot instancji
+
+???
+
+Przejdźmy do następnego tematu..
+
+Wykonywanie snapshotów pozwala na zachowanie zmian na dysku instancji.
+
+---
+class: center, middle, regular
+
+## Snapshot instancji
+
+-----
+
+<img alt="Snapshot instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.10.33.png"></img>
+
+-----
+
+_Snapshot instancji_
+
+???
+
+Kilka zdań o snapshotach:
+
+* tegu typu operację wykonujemy, gdy wykonaliśmy pewne zmiany na instancji i chcemy wykonać ich kopię lub przygotować obraz do ponownego użycia, poprzez uruchomienie kolejnych instancji
+* instancja uruchomiona ze snapshotu, nie będzie powiązana z instancją, w oparciu o którą został wykonany snapshot
+* **uwaga** snapshot nie jest zapisem stanu instancji, jak to ma miejsce w innych środowiskach wirtualizacyjnych
+* aby wykonać snapshot, należy wybrać z menu instancji, opcję "Stwórz snapshot"
+
+---
+class: center, middle, regular
+
+## Snapshot instancji
+
+-----
+
+<img alt="Snapshot instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.10.40.png"></img>
+
+-----
+
+_Snapshot instancji_
+
+???
+
+* jeśli instancja jest uruchomiona, zostanie ona na chwilę wstrzymana
+* możliwe jest, że wstrzymanie działania procesu instancji, spowoduje timeout na połączeniach, np. zerwanie połączenia SSH czy połączeń do bazy danych
+* jeśli instancja jest mocno obciążona i wykonuje operacje na dysku (np. na bazie danych), to może dojść do zawieszenia operacji czy transakcji i w efekcie, jeśli system nie potrafi obsłużyć zmiany zegara, może dojść do zawieszenia działania systemu
+* wykonywanie snapshota na aktywnie działającej instancji, np. mocno obciążonej, nie jest zalecane
+* warto taką instancję odseparować od produkcji i zatrzymać aplikacje
+* z poziomu OpenStack API możemy instancję zatrzymać i wykonać snapshot na nie działającej aplikacji, co jest najbezpieczniejsze
+
+---
+class: center, middle, regular
+
+## Snapshot instancji
+
+-----
+
+<div>
+  <asciinema-player src="casts/04-snapshot-instance.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, gdzie jest widoczne, że w trakcie wykonywania snapshotu, system zauważa zmianę czasu, spowodowaną wstrzymaniem działania procesu maszyny wirtualnej.
+
+Pierwsze co, to sprawdzam uptime instancji i włączam podgląd logów. Z panelu klienta wykonuję snapshot, co powoduje przerwanie połączenia SSH. Loguję się raz jeszcze i sprawdzam, czy uptime się zmienił. Okazuje się, że system nie został wyłączony, ale działanie zostało wstrzymane, gdyż w logach można zauważyć, że system wykrył zmianę czasu.
+
+```
+uptime
+sudo tail -f /var/log/syslog
+uptime
+sudo tail -f /var/log/syslog
+```
+
+---
+class: center, middle, regular
+
+## Snapshot instancji
+
+-----
+
+<img alt="Snapshot instancji" style="width: 90%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.11.46.png"></img>
+
+-----
+
+_Snapshot instancji_
+
+???
+
+Po chwili, snapshot pojawi się na liście w panelu klienta.
+
+---
+class: center, middle, regular
+
+## Snapshot instancji
+
+-----
+
+<img alt="Snapshot instancji" style="width: 90%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.31.00.png"></img>
+
+-----
+
+_Uruchamianie instancji z wykonanego snapshotu_
+
+???
+
+Co dalej?
+
+* z wykonanego i gotowego snapshotu, można uruchomić kolejną instancję
+* uruchomienie nowej instancji ze snapshotu możliwe jest tylko w ramach tego samego regionu, gdzie uruchomiona była oryginalna instancja, z której wykonany został snapshot
+* aby wykorzystać snapshot, należy wybrać go z listy obrazów bazowych, z sekcji "Moje kopie zapasowe (snapshoty)"
+
+---
+class: center, middle, regular
+
+# Pierwszy wolumen
+
+???
+
+Przejdźmy do woluminów.
+
+W celu oddzielenia danych od maszyn, można wykorzystać woluminy.
+
+Przy usuwaniu instancji, dane zapisane na woluminie, nie są usuwane i można je użyć na innej instacji.
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Dodanie nowego woluminu" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.42.32.png"></img>
+
+-----
+
+_Dodanie nowego woluminu_
+
+???
+
+* dodanie dysku wygląda tak samo, jak dodanie serwera
+* wybieramy z menu projektu opcję "Dodaj dysk"
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Konfiguracja nowego woluminu" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.42.55.png"></img>
+
+-----
+
+_Konfiguracja nowego woluminu_
+
+???
+
+* przy tworzeniu woluminu określamy:
+ * w którym regionie będzie on utworzony
+ * jaki ma być jego rozmiar
+ * jakiego typu on ma być (dostępne są typy: classic i high-speed - różnią się prędkością, a dokładnie limitami IOPS)
+* w zależności od rozmiaru i typu woluminu, cena za wolumen będzie inna
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Nowy wolumen" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.43.06.png"></img>
+
+-----
+
+_Nowy odłączony wolumen_
+
+???
+
+* nowo utworzony wolumen, nie będzie podłączony do żadnej z instancji
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Lista woluminów" style="width: 90%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.43.32.png"></img>
+
+-----
+
+_Lista dostępnych w projekcie woluminów_
+
+???
+
+* oto, jak prezentuje się widok listy wszystkich woluminów
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Nowy wolumen" style="width: 40%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.43.17.png"></img>
+
+-----
+
+_Dodanie woluminu do instancji_
+
+???
+
+* aby dodać wolumen do instancji, wybieramy z menu woluminu, opcję "Przypisz do serwera"
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Nowy wolumen" style="width: 70%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.43.54.png"></img>
+
+-----
+
+_Dodanie woluminu do instancji_
+
+???
+
+* następnie zaznaczamy, do której instancji ma zostać przypisany wolumen
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Nowy wolumen" style="width: 70%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.44.08.png"></img>
+
+-----
+
+_Dodanie woluminu do instancji_
+
+???
+
+* po chwili wolumen zostanie dodany
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<img alt="Nowy wolumen" style="width: 70%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.44.18.png"></img>
+
+-----
+
+_Dodanie woluminu do instancji_
+
+???
+
+_nic_
+
+---
+class: center, middle, regular
+
+## Pierwszy wolumen
+
+-----
+
+<div>
+  <asciinema-player src="casts/06-attach-volume.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, gdzie można zauważyć, co się dzieje na instancji, gdy zostanie dołączony nowy wolumen (dysk).
+
+Na początku sprawdzam, ile mam obecnie podłączonych dysków i włączam podgląd logów systemu. Z poziomu panelu klienta, dodaję nowy wolumen do instancji, co jest widoczne w logach. Sprawdzam, czy system wykrył nowy dysk. Przed użyciem potrzebuję go przygotować, czyli utworzyć system plików. Tworzę punkt montowania oraz montuje dysk. Sprawdzam, czy jest zamontowany i tworzę plik na tym dysku.
+
+```
+lsblk
+sudo tail -n 2 -f /var/log/syslog | ccze -A
+lsblk
+sudo mkfs.ext4 /dev/sdb
+sudo mkdir /mnt/disk
+sudo mount /dev/sdb /mnt/disk
+lsblk
+df -h | grep sd
+sudo touch /mnt/disk/file1
+ls /mnt/disk
+```
+
+---
+class: center, middle, regular
+
+# Powiększenie woluminu
+
+???
+
+Jeśli wolumen jest używany i jego rozmiar jest niewystarczający, to można go powiększyć.
+
+---
+class: center, middle, regular
+
+## Powiększenie woluminu
+
+-----
+
+<img alt="Odłączenie" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.47.55.png"></img>
+
+-----
+
+_Odłączenie woluminu od instancji_
+
+???
+
+Kilka zdań o powiększaniu woluminów:
+
+* rozmiar woluminu można zmienić, a dokładnie zwiększyć
+* aby bezpieczenie przeprowadzić operację zmiany rozmiaru, należy go odłączyć od instancji, uprzednio wyłączając go z użytku, czyli odmontowywując go
+* tym samym, zmiana wielkości woluminu wymaga, by aplikacje korzystające z danego woluminu były wyłączone, na czas zmiany wielkości rozmiaru
+
+---
+class: center, middle, regular
+
+## Powiększenie woluminu
+
+-----
+
+<img alt="Zmiana rozmiaru" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.48.32.png"></img>
+
+-----
+
+_Zmiana rozmiaru woluminu_
+
+???
+
+* zmianę rozmiaru wykonujemy z menu dysku, wybierając opcję "Zmień rozmiar woluminu"
+
+---
+class: center, middle, regular
+
+## Powiększenie woluminu
+
+-----
+
+<img alt="Zmiana rozmiaru" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-17 o 13.48.47.png"></img>
+
+-----
+
+_Zmiana rozmiaru woluminu_
+
+???
+
+* modyfikując rozmiar woluminu, nie można zmienić jego typu ani lokalizacji
+
+---
+class: center, middle, regular
+
+## Powiększenie woluminu
+
+-----
+
+<div>
+  <asciinema-player src="casts/07-resize-volume.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, gdzie jest widoczne:
+
+* sprawdzenie obecnie zamontowanych dysków
+* odłączenie woluminu
+* sprawdzenie raz jeszcze listy dysków
+* włączenie logowania
+* wykonanie zmian w panelu
+* podłączenie woluminu
+* sprawdzenie czy zmieniły się parametry dysku
+* zamontowanie dysku
+* sprawdzenie rozmiaru
+* odmontowanie
+* rozszerzenie
+* zamontowanie
+* sprawdzenie rozmiaru
+
+```
+mount | grep sd
+sudo umount /dev/sdb
+mount | grep sd
+lsblk
+sudo tail -n 2 -f /var/log/syslog | ccze -A
+lsblk
+sudo tail -n 2 -f /var/log/syslog | ccze -A
+lsblk
+sudo mount /dev/sdb /mnt/disk
+df -h | grep sd
+sudo umount /dev/sdb
+sudo e2fsck -f /dev/sdb
+sudo resize2fs /dev/sdb
+sudo mount /dev/sdb /mnt/disk
+df -h | grep sd
+```
+
+---
+class: center, middle, regular
+
+# Przeniesienie woluminu
+
+???
+
+Istnieje możliwość przeniesienia woluminu między instancjami.
+
+---
+class: center, middle, regular
+
+## Przeniesienie woluminu
+
+-----
+
+<img alt="Przenoszenie woluminu" style="width: 45%;" src="dumps/Zrzut ekranu 2018-01-17 o 15.17.13.png"></img>
+
+-----
+
+_Przenoszenie woluminu_
+
+???
+
+* przenoszenie rozpoczynamy od wybrania używanego woluminu
+* kolejno zaznaczamy do której instancji wolumen ma zostać podłączony
+
+---
+class: center, middle, regular
+
+## Przeniesienie woluminu
+
+-----
+
+<img alt="Przenoszenie woluminu" style="width: 45%;" src="dumps/Zrzut ekranu 2018-01-17 o 15.20.49.png"></img>
+
+-----
+
+_Przenoszenie woluminu_
+
+???
+
+* po przeniesieniu wygląda to tak
+
+---
+class: center, middle, regular
+
+## Przeniesienie woluminu
+
+-----
+
+<div>
+  <asciinema-player src="casts/09-move-volume-between-instances.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, jak wygląda przenoszenie wolumenu z poziomu instancji. Widoczne jest, że na pierwszej instancji dysk jest odłączony i po chwili dysk jest podłączony do drugiej instancji.
+
+```
+tmux
+lsblk
+sudo tail -n 1 -f /var/log/syslog | ccze -A
+sudo mkdir /mnt/disk
+sudo mount /dev/sdb /mnt/disk
+mount | grep sdb
+df -h | grep sd
+ls /mnt/disk
+```
+
+---
+class: center, middle, regular
+
+# Dodatkowe opcje
+
+???
+
+Kilka zdań o innych opcjach
+
+---
+class: center, middle, regular
+
+## Uruchomienie kilku instancji
+
+-----
+
+<img alt="Uruchomienie kilku instancji" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-17 o 15.21.21.png"></img>
+
+-----
+
+_Uruchomienie kilku instancji_
+
+???
+
+* możliwe jest uruchomienie kilku instancji za jednym razem
+* ograniczone jest to limitami, jakie są nałożone na każdy z projektów i regionów
+
+---
+class: center, middle, regular
+
+## Uruchomienie kilku instancji
+
+-----
+
+<img alt="Uruchamianie kilku instancji" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-17 o 15.22.39.png"></img>
+
+-----
+
+_Uruchomienie kilku instancji_
+
+???
+
+* oto jak to wygląda panel projektu, po uruchomieniu kilku instancji
+
+---
+class: center, middle, regular
+
+## Użycie skryptu post-instalacyjnego
+
+-----
+
+<img alt="Użycie skryptu post-instalacyjnego" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-18 o 15.00.47.png"></img>
+
+-----
+
+_Użycie skryptu post-instalacyjnego_
+
+???
+
+* możliwe jest dodanie skryptu, który zostanie wykonany po uruchomieniu systemu i zrealizuje on operacje, takie jak np. instalacje oprogramowania czy specjalne ustawienia dot. aplikacji
+* **ważne** jest, aby ten skrypt miał odpowiedni początek, tzw. `shebang`: `#!/usr/bin/env bash`
+
+---
+class: center, middle, regular
+
+## Użycie skryptu post-instalacyjnego
+
+-----
+
+<div>
+  <asciinema-player src="casts/10-post-install-script.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, na którym jest widoczne, że na uruchomionej instancji, ze zdefiniowanym skryptem post-install, wykonane zostały określone operacje.
+
+```
+#!/usr/bin/env bash
+
+touch /tmp/test
+touch /root/test
+```
+
+---
+class: center, middle, regular
+
+## Konsola VNC
+
+-----
+
+<img alt="Konsola VNC" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-18 o 15.05.57.png"></img>
+
+-----
+
+_Konsola VNC_
+
+???
+
+* możliwe jest uzyskanie dostępu do konsoli VNC danej instancji
+
+---
+class: center, middle, regular
+
+## Konsola VNC
+
+-----
+
+<img alt="Konsola VNC" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-18 o 15.06.06.png"></img>
+
+-----
+
+_Konsola VNC_
+
+???
+
+* jest to przydatne tylko, gdy znamy hasło użytkownika obecnego na instancji, o czym przypomni nam wiadomość w panelu klienta
+
+---
+class: center, middle, regular
+
+## Konsola VNC
+
+-----
+
+<img alt="Konsola VNC" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-18 o 15.06.19.png"></img>
+
+-----
+
+_Konsola VNC_
+
+???
+
+* tak sobie wygląda konsola VNC
+
+---
+class: center, middle, regular
+
+## Inne opcje instancji
+
+-----
+
+<img alt="Inne opcje instancji" style="width: 80%;" src="dumps/Zrzut ekranu 2018-01-18 o 15.19.04.png"></img>
+
+-----
+
+_Inne opcje instancji_
+
+???
+
+Kilka zdań o innych opcjach
+
+Możliwe jest:
+
+* wykonanie programowego (miękkiego) restartu, co spowoduje wysłanie sygnału do systemu operacyjnego, z prośbą o zamknięcie systemu (ACPI call)
+* wykonanie sprzętowego (twardego) restartu, co spowoduje natychmiastowe zakończenie procesu odpowiedzialnego za wirtualizację instancji
+* przeprowadzenie reinstalacji, co spowoduje przywrócenie obrazu bazowego
+* usunięcie instancji, co spowoduje zakończenie działania instancji i usunięcie dysku bazowego (nie obrazu bazowego ani woluminów)
+ * warto jednak odłączyć manualnie woluminy od usuwanej instancji
+
+---
+class: center, middle, regular
+
+# Instancje z sieciami prywatnymi
+
+???
+
+Domyślnie instacje posiadają publiczny interfejs. Dzięki usłudze vRack jest możliwe, aby były one połączone także przy pomocy sieci prywatnej.
+
+Czym jest vRack?
+
+* jest to usługa OVH, która pozwala na połączenie różnych produktów OVH w jednej sieć
+* pozwala na
+ * połączenie serwerów dedykowanych wraz z instancjami cloud
+ * połączenia między instancjami czy serwerami uruchomionymi w różnych centrach
+ * tworzenie wielu sieci prywatnych niezależnych od siebie
+
+---
+class: center, middle, regular
+
+## Instancje z sieciami prywatnymi
+
+-----
+
+<img alt="Dodanie sieci prywatnej" style="width: 30%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.34.03.png"></img>
+
+-----
+
+<img alt="Dodanie sieci prywatnej" style="width: 30%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.35.11.png"></img>
+
+-----
+
+_Dodanie sieci prywatnej_
+
+???
+
+* przy dodawaniu sieci prywatnej, powinniśmy określić VLAN
+* możliwe jest posiadanie tylko jednej sieci bez określonego VLANa
+* z punktu widzenia instancji, na interfejsie sieci prywatnej nie będzie widać otagowanych VLANem ramek Ethernet
+* ramki Ethernet z VLANem będą widoczne na interfejsie serwera dedykowanego, jeśli zostanie serwer podłączony do vRacka
+
+---
+class: center, middle, regular
+
+## Instancje z sieciami prywatnymi
+
+-----
+
+<img alt="Dodanie sieci prywatnej" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.34.14.png"></img>
+
+-----
+
+<img alt="Dodanie sieci prywatnej" style="width: 60%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.34.27.png"></img>
+
+-----
+
+_Dodanie sieci prywatnej_
+
+???
+
+* tworząc sieć prywatną określamy, czy ma zostać skonfigurowany serwer DHCP dla nowej sieci
+* zaznaczając, że sieć prywatna ma być dostępna w wielu regionach, dla każdego z regionów, tworzony jest inny zakres przydzielanych adresów
+
+---
+class: center, middle, regular
+
+## Instancje z sieciami prywatnymi
+
+-----
+
+<img alt="Dodanie sieci prywatnej" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.35.30.png"></img>
+
+-----
+
+<img alt="Dodanie sieci prywatnej" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.37.26.png"></img>
+
+-----
+
+_Dodanie sieci prywatnej_
+
+???
+
+* tworzenie sieci zajmuje chwilę
+
+---
+class: center, middle, regular
+
+## Instancje z sieciami prywatnymi
+
+-----
+
+<img alt="Użycie sieci prywatnej" style="width: 75%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.38.11.png"></img>
+
+-----
+
+_Użycie sieci prywatnej_
+
+???
+
+* gdy już została ona dodana, można ją wybrać przy tworzeniu nowej instancji
+
+---
+class: center, middle, regular
+
+## Instancje z sieciami prywatnymi
+
+-----
+
+<img alt="Użycie sieci prywatnej" style="width: 50%;" src="dumps/Zrzut ekranu 2018-01-18 o 16.40.47.png"></img>
+
+-----
+
+_Użycie sieci prywatnej_
+
+???
+
+Instancja będzie posiadała adres z sieci prywatnej, co jest widoczne w panelu klienta.
+
+---
+class: center, middle, regular
+
+## Instancje z sieciami prywatnymi
+
+-----
+
+<div>
+  <asciinema-player src="casts/11-vrack-networks.json"></asciinema-player>
+</div>
+
+-----
+
+???
+
+Oto przykład, gdzie można zauważyć, że instancje mają dwa interfejsy. Do drugiego interfejsu nie ma adresu przypisanego, bowiem domyślnie interfejs nie jest skonfigurowany. Należy uruchomić klienta DHCP i zostanie przypisany odpowiedni adres. W przykładzie użyte zostały dwie instancje, które uruchomione były w dwóch różnych regionach.
+
+```
+tmux
+ip addr show dev ens4
+sudo dhclient ens4
+ping <ens4>
+traceroute <ens4>
+ip addr show dev ens3
+ping <ens3>
+traceroute <ens3>
+```
+
+---
+class: center, middle, regular
+
+## Pytania i odpowiedzi
+
+???
+
+To wszystko, co w tej prezentacji miałem do pokazania.
+
+Dziękuję państwu za uwagę. Teraz pora na pytania i odpowiedzi.
+
+Proszę o chwilę cierpliwości, gdyż potrzebuję przejrzeć dotychczas udzielone pytania.
+
+Jeśli jakieś pytania powtarzają się lub są podobne, postaram się na nie odpowiedzieć wspólnie.
+
+Za minutę się odezwę.
+
+---
+class: center, middle, regular
+
+## Dziękuję
+
+???
+To było nasze ostatnie pytanie. Czas nagli i z przykrością stwierdzam, że musimy zakończyć dzisiejsze spotkanie.
+
+Bardzo dziękuję i zachęcam do wzięcia udziału w kolejnym webinarium, które będzie dotyczyło obsługi OVH Public Cloud przy pomocy Horizona, OpenStack API oraz innych narzędzi.
+
+Gdyby państwo mieli jakieś uwagi co do tej prezentacji lub sugestie/propozycje co do następnej, proszę o przekazanie ich mailem.
+
+Życzę miłego dalszego dnia i do usłyszenia!
+
+    </textarea>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script type="text/javascript" src="asciinema-player.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var slideshow = remark.create();
+      });
+    </script>
+  </body>
+</html>

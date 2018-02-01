@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 31.263479,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.362109,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      7.9e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.011531,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      4e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.532593,
+      "\u001b[7mssh ubuntu@145.239.28.185\u001b[27m"
+    ],
+    [
+      0.530467,
+      "\u001b[25D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m \u001b[27mu\u001b[27mb\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27mu\u001b[27m@\u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m8\u001b[27m.\u001b[27m1\u001b[27m8\u001b[27m5"
+    ],
+    [
+      5.3e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001085,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.816982,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)"
+    ],
+    [
+      0.000365,
+      "\r\n"
+    ],
+    [
+      0.00025,
+      "\r\n"
+    ],
+    [
+      5.8e-05,
+      " * Documentation:  https://help.ubuntu.com\r\n"
+    ],
+    [
+      0.000864,
+      " * Management:     https://landscape.canonical.com"
+    ],
+    [
+      0.000279,
+      "\r\n * Support:        https://ubuntu.com/advantage"
+    ],
+    [
+      0.001021,
+      "\r\n"
+    ],
+    [
+      0.011025,
+      "\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Mon Jan 22 18:46:36 2018 from 82.143.153.24\r\r\nTo run a command as administrator (user \"root\"), use \"sudo <command>\".\r\nSee \"man sudo_root\" for details.\r\n\r\n"
+    ],
+    [
+      0.084059,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "s"
+    ],
+    [
+      9.5e-05,
+      "u"
+    ],
+    [
+      0.000278,
+      "d"
+    ],
+    [
+      0.000329,
+      "o "
+    ],
+    [
+      0.000361,
+      "t"
+    ],
+    [
+      0.001759,
+      "ai"
+    ],
+    [
+      0.000259,
+      "l "
+    ],
+    [
+      0.030989,
+      "-f /var/log/syslog"
+    ],
+    [
+      0.467649,
+      "\r\n"
+    ],
+    [
+      0.016306,
+      "Jan 22 18:47:38 serwer-1 systemd[1]: Created slice User Slice of ubuntu.\r\n"
+    ],
+    [
+      0.000338,
+      "Jan 22 18:47:38 serwer-1 systemd[1]: Starting User Manager for UID 1000..."
+    ],
+    [
+      0.000164,
+      "\r\n"
+    ],
+    [
+      0.000321,
+      "Jan 22 18:47:39 serwer-1 systemd[1]: Started Session 3 of user ubuntu.\r\n"
+    ],
+    [
+      0.002998,
+      "Jan 22 18:47:39 serwer-1 systemd[1743]: Reached target Timers.\r\n"
+    ],
+    [
+      0.000196,
+      "Jan 22 18:47:39 serwer-1 systemd[1743]: Reached target Sockets."
+    ],
+    [
+      0.000275,
+      "\r\nJan 22 18:47:39 serwer-1 systemd[1743]: Reached target Paths."
+    ],
+    [
+      0.00032,
+      "\r\n"
+    ],
+    [
+      0.000258,
+      "Jan 22 18:47:39 serwer-1 systemd[1743]: Reached target Basic System."
+    ],
+    [
+      0.001878,
+      "\r\nJan 22 18:47:39 serwer-1 systemd[1743]: Reached target Default."
+    ],
+    [
+      0.000328,
+      "\r\n"
+    ],
+    [
+      0.000446,
+      "Jan 22 18:47:39 serwer-1 systemd[1743]: Startup finished in 48ms."
+    ],
+    [
+      0.001094,
+      "\r\nJan 22 18:47:39 serwer-1 systemd[1]: Started User Manager for UID 1000."
+    ],
+    [
+      0.000353,
+      "\r\n"
+    ],
+    [
+      2.3,
+      "Connection to 145.239.28.185 closed by remote host.\r\r\nConnection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.001856,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000125,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.014412,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      3.4e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "ssh ubuntu@145.239.28.185"
+    ],
+    [
+      0.318728,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      4.9e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000683,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      2.3,
+      "ssh: connect to host 145.239.28.185 port 22: Operation timed out\r\r\n"
+    ],
+    [
+      0.001766,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000272,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.015096,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      2.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.4e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "ssh ubuntu@145.239.28.185"
+    ],
+    [
+      1.508271,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00065,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.592263,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Mon Jan 22 18:47:39 2018 from 82.143.153.24\r\r\n"
+    ],
+    [
+      0.079388,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "l"
+    ],
+    [
+      0.000385,
+      "scpu"
+    ],
+    [
+      0.000374,
+      " "
+    ],
+    [
+      0.000182,
+      "|"
+    ],
+    [
+      0.000338,
+      " "
+    ],
+    [
+      0.000239,
+      "gr"
+    ],
+    [
+      0.000474,
+      "e"
+    ],
+    [
+      0.000631,
+      "p "
+    ],
+    [
+      0.012268,
+      "-e Architecture -e CPU -e Thread -e Core"
+    ],
+    [
+      0.432533,
+      "\r\n"
+    ],
+    [
+      0.003379,
+      "\u001b[01;31m\u001b[KArchitecture\u001b[m\u001b[K:          x86_64\r\n\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K op-mode(s):        32-bit, 64-bit\r\n\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K(s):                2\r\n"
+    ],
+    [
+      0.000268,
+      "On-line \u001b[01;31m\u001b[KCPU\u001b[m\u001b[K(s) list:   0,1\r\n"
+    ],
+    [
+      0.000272,
+      "\u001b[01;31m\u001b[KThread\u001b[m\u001b[K(s) per core:    1\r\n"
+    ],
+    [
+      0.000863,
+      "\u001b[01;31m\u001b[KCore\u001b[m\u001b[K(s) per socket:    1\r\n\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K family:            6\r\n"
+    ],
+    [
+      0.000542,
+      "Model name:            Intel \u001b[01;31m\u001b[KCore\u001b[m\u001b[K Processor (Haswell, no TSX)\r\n"
+    ],
+    [
+      0.001012,
+      "\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K MHz:               2394.444"
+    ],
+    [
+      0.005814,
+      "\r\nNUMA node0 \u001b[01;31m\u001b[KCPU\u001b[m\u001b[K(s):     0,1\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "free"
+    ],
+    [
+      0.000564,
+      " "
+    ],
+    [
+      0.000317,
+      "-m"
+    ],
+    [
+      0.492202,
+      "\r\n"
+    ],
+    [
+      0.006459,
+      "              total        used        free      shared  buff/cache   available\r\nMem:           7793          66        7576           8         151        7506\r\nSwap:             0           0           0\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "ls"
+    ],
+    [
+      0.001441,
+      "bl"
+    ],
+    [
+      0.001747,
+      "k"
+    ],
+    [
+      0.418286,
+      "\r\n"
+    ],
+    [
+      0.005588,
+      "NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\r\n"
+    ],
+    [
+      0.000329,
+      "sda      8:0    0  40G  0 disk \r\n"
+    ],
+    [
+      0.000356,
+      "`-sda1   8:1    0  40G  0 part /\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "df"
+    ],
+    [
+      0.000362,
+      " "
+    ],
+    [
+      0.00027,
+      "-"
+    ],
+    [
+      0.000245,
+      "h"
+    ],
+    [
+      0.566219,
+      "\r\n"
+    ],
+    [
+      0.005016,
+      "Filesystem      Size  Used Avail Use% Mounted on\r\nudev            3.8G     0  3.8G   0% /dev\r\ntmpfs           780M  8.6M  771M   2% /run\r\n/dev/sda1        39G  860M   38G   3% /\r\n"
+    ],
+    [
+      0.000253,
+      "tmpfs           3.9G     0  3.9G   0% /dev/shm\r\n"
+    ],
+    [
+      0.053624,
+      "tmpfs           5.0M     0  5.0M   0% /run/lock\r\ntmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup\r\ntmpfs           780M     0  780M   0% /run/user/1000\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "logout\r\n"
+    ],
+    [
+      0.005912,
+      "Connection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.001897,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000256,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.01475,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      5.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.802453,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

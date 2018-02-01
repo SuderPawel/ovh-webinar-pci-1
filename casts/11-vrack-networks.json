@@ -1,0 +1,562 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 70.90134,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.365506,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.011613,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      3.8e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.393773,
+      "t"
+    ],
+    [
+      0.072378,
+      "\btm"
+    ],
+    [
+      0.171124,
+      "u"
+    ],
+    [
+      0.09866,
+      "x"
+    ],
+    [
+      0.14635,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      6e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.004377,
+      "\u001b]2;tmux\u0007\u001b]1;tmux\u0007"
+    ],
+    [
+      0.0135,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[c\u001b(B\u001b[m\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[?1003l\u001b[?1006l\u001b[?2004l\u001b[1;1H\u001b[1;25r\u001b]112\u0007\u001b[1;1H"
+    ],
+    [
+      0.001321,
+      "\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:zsh*                                  \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000261,
+      "\u001b(B\u001b[m\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[?1003l\u001b[?1006l\u001b[?2004l\u001b[1;1H\u001b[1;25r\u001b[1;1H"
+    ],
+    [
+      0.000729,
+      "\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:zsh*                                  \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.373911,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[1;1H \u001b[H"
+    ],
+    [
+      0.000849,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01082,
+      "\u001b[1;24r\u001b[2;24r\u001b[23S\u001b[1;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[1;6H"
+    ],
+    [
+      0.000111,
+      "\u001b[?2004h"
+    ],
+    [
+      0.845249,
+      "\u001b[7mssh ubuntu@54.37.131.118\u001b(B\u001b[m"
+    ],
+    [
+      0.428153,
+      "\u001b[6Gssh ubuntu@54.37.131.118"
+    ],
+    [
+      3.6e-05,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.002112,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:ubuntu@54.37.131.118*                 \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[2;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.031148,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)"
+    ],
+    [
+      0.000158,
+      "\u001b[4;1H * Documentation:  https://help.ubuntu.com"
+    ],
+    [
+      0.000412,
+      "\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n"
+    ],
+    [
+      0.067346,
+      "\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\u001b[11;1H29 packages can be updated.\r\n24 updates are security updates.\u001b[15;1HLast login: Tue Jan 23 08:45:06 2018 from 109.190.254.6\r\n"
+    ],
+    [
+      0.018171,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "ip addr show dev ens4"
+    ],
+    [
+      0.80775,
+      "\r\n3: ens4: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\r\n    link/ether fa:16:3e:e6:7b:ac brd ff:ff:ff:ff:ff:ff\r\nubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "sudo dhclient ens4"
+    ],
+    [
+      0.683623,
+      "\r\n"
+    ],
+    [
+      0.055001,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "ip addr"
+    ],
+    [
+      9e-05,
+      " show dev ens4"
+    ],
+    [
+      0.464756,
+      "\r\n"
+    ],
+    [
+      0.000936,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[21;1H3: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc pfifo_fast state UP group default qlen 1000\r\n    link/ether fa:16:3e:e6:7b:ac brd ff:ff:ff:ff:ff:ff\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000412,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[23;1H    inet 192.168.0.218/24 brd 192.168.0.255 scope global ens4\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      8.6e-05,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[23;1H       valid_lft forever preferred_lft forever\r\n    inet6 fe80::f816:3eff:fee6:7bac/64 scope link \u001b[1;25r\u001b[24;51H"
+    ],
+    [
+      0.064893,
+      "\u001b[1;24r\u001b[2S\u001b[23;1H       valid_lft forever preferred_lft forever\r\nubuntu@serwer-1:~$ \u001b[1;25r\u001b[24;20H"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\u001b[13;1H─────────────────────────────────────────\u001b[32m───────────────────────────────────────\u001b[1;1H\u001b(B\u001b[m 1000\u001b[K\r\n    link/ether fa:16:3e:e6:7b:ac brd ff:ff:ff:ff:ff:ff\u001b[K\r\nubuntu@serwer-1:~$ sudo dhclient ens4\u001b[K\r\nubuntu@serwer-1:~$ ip addr show dev ens4\u001b[K\r\n3: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc pfifo_fast state UP group default qlen 1000\u001b[K\r\n    link/ether fa:16:3e:e6:7b:ac brd ff:ff:ff:ff:ff:ff\u001b[K\r\n    inet 192.168.0.218/24 brd 192.168.0.255 scope global ens4\u001b[K\r\n       valid_lft forever preferred_lft forever\u001b[K\r\n    inet6 fe80::f816:3eff:fee6:7bac/64 scope link\u001b[K\r\n       valid_lft forever preferred_lft forever\u001b[K\r\nubuntu@serwer-1:~$\u001b[K\u001b[14;1H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:ubuntu@54.37.131.118*                 \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[14;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.436732,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[14;1H \r"
+    ],
+    [
+      0.000909,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[14;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011101,
+      "\u001b[14;24r\u001b[15;24r\u001b[10S\u001b[14;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[14;6H"
+    ],
+    [
+      0.000114,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "\u001b[7mssh ubuntu@54.36.112.195\u001b(B\u001b[m"
+    ],
+    [
+      0.381925,
+      "\u001b[6Gssh ubuntu@54.36.112.195"
+    ],
+    [
+      4.1e-05,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.002636,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:ubuntu@54.36.112.195*                 \"LAPTOP910323.local\" 09:46 23-sty-18\u001b(B\u001b[m\u001b[15;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.824303,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\u001b[17;1H * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n"
+    ],
+    [
+      0.048592,
+      "\u001b[14;24r\u001b[8S\u001b[14;1H    http://www.ubuntu.com/business/services/cloud\u001b[16;1H0 packages can be updated.\r\n0 updates are security updates.\u001b[20;1HLast login: Tue Jan 23 08:45:24 2018 from 109.190.254.6\r\nTo run a command as administrator (user \"root\"), use \"sudo <command>\".\r\nSee \"man sudo_root\" for details.\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.034793,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "i"
+    ],
+    [
+      0.000853,
+      "p addr sh"
+    ],
+    [
+      0.049047,
+      "ow dev ens4"
+    ],
+    [
+      0.393688,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.003413,
+      "\u001b[14;24r\u001b[2S\u001b[22;1H3: ens4: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\r\n    link/ether fa:16:3e:32:98:8d brd ff:ff:ff:ff:ff:ff\u001b[1;25r\u001b[24;55H"
+    ],
+    [
+      6.9e-05,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000341,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "sudo dhclient ens4"
+    ],
+    [
+      0.501491,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.105495,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "ip addr show dev ens4"
+    ],
+    [
+      0.546318,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.001642,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;1H3: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc pfifo_fast state UP group default qlen 1000\u001b[1;25r\u001b[24;22H\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.00077,
+      "\u001b[14;24r\u001b[3S\u001b[21;1H    link/ether fa:16:3e:32:98:8d brd ff:ff:ff:ff:ff:ff\r\n    inet 192.168.0.55/24 brd 192.168.0.255 scope global ens4\r\n       valid_lft forever preferred_lft forever\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000239,
+      "    inet6 fe80::f816:3eff:fe32:988d/64 scope link "
+    ],
+    [
+      0.046333,
+      "\u001b[14;24r\u001b[2S\u001b[23;1H       valid_lft forever preferred_lft forever\r\nubuntu@serwer-2:~$ \u001b[1;25r\u001b[24;20H"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\r\n\u001b[30m\u001b[42m[0] 0:ubuntu@54.36.112.195*                 \"LAPTOP910323.local\" 09:47 23-sty-18\u001b(B\u001b[m\u001b[24;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\u001b[32m\u001b[13;1H─────────────────────────────────────────\u001b[39m───────────────────────────────────────\u001b(B\u001b[m\u001b[12;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "\r\u001b[Kubuntu@serwer-1:~$ ping 192.168.0.55"
+    ],
+    [
+      0.853658,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.002636,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1HPING 192.168.0.55 (192.168.0.55) 56(84) bytes of data.\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.044387,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1H64 bytes from 192.168.0.55: icmp_seq=1 ttl=64 time=43.6 ms\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      1.009032,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1H64 bytes from 192.168.0.55: icmp_seq=2 ttl=64 time=21.0 ms\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.740796,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1H^C\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.000886,
+      "\u001b[1;12r\u001b[3S\u001b[9;1H--- 192.168.0.55 ping statistics ---\r\n2 packets transmitted, 2 received, 0% packet loss, time 1002ms\r\nrtt min/avg/max/mdev = 21.000/32.334/43.668/11.334 ms\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      6.2e-05,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "tracerou"
+    ],
+    [
+      0.000491,
+      "te"
+    ],
+    [
+      0.00025,
+      " 192.168.0.55"
+    ],
+    [
+      0.56008,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.000939,
+      "traceroute to 192.168.0.55 (192.168.0.55), 30 hops max, 60 byte packets"
+    ],
+    [
+      0.021837,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.000926,
+      " 1  192.168.0.55 (192.168.0.55)  21.623 ms"
+    ],
+    [
+      2.3,
+      " *"
+    ],
+    [
+      0.000572,
+      "  21.588 ms"
+    ],
+    [
+      0.000344,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.000243,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      0.214019,
+      "\u001b[?25l\r\n─────────────────────────────────────────\u001b[32m───────────────────────────────────────\u001b(B\u001b[m\u001b[24;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "ip addr show dev ens3"
+    ],
+    [
+      0.421945,
+      "\u001b[14;24r\u001b[5S\u001b[20;1H2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000\r\n    link/ether fa:16:3e:cc:08:bc brd ff:ff:ff:ff:ff:ff\r\n    inet 54.36.112.195/32 brd 54.36.112.195 scope global ens3\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000105,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;1H       valid_lft forever preferred_lft forever\r\n    inet6 fe80::f816:3eff:fecc:8bc/64 scope link \u001b[1;25r\u001b[24;50H"
+    ],
+    [
+      0.048252,
+      "\u001b[14;24r\u001b[2S\u001b[23;1H       valid_lft forever preferred_lft forever\r\nubuntu@serwer-2:~$ \u001b[1;25r\u001b[24;20H"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\r\n\u001b[30m\u001b[42m[0] 0:ubuntu@54.36.112.195*                 \"LAPTOP910323.local\" 09:48 23-sty-18\u001b(B\u001b[m\u001b[24;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\u001b[32m\u001b[13;1H─────────────────────────────────────────\u001b[39m───────────────────────────────────────\u001b(B\u001b[m\u001b[12;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "ping 54.36.112.195"
+    ],
+    [
+      0.54014,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.001559,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1HPING 54.36.112.195 (54.36.112.195) 56(84) bytes of data.\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.021497,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1H64 bytes from 54.36.112.195: icmp_seq=1 ttl=51 time=21.2 ms\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      1.063248,
+      "64 bytes from 54.36.112.195: icmp_seq=2 ttl=51 time=21.2 ms"
+    ],
+    [
+      8.6e-05,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.420452,
+      "\u001b[1;12r\u001b[3S\u001b[9;1H^C\r\n--- 54.36.112.195 ping statistics ---\r\n2 packets transmitted, 2 received, 0% packet loss, time 1001ms\r\nrtt min/avg/max/mdev = 21.210/21.211/21.213/0.145 ms\u001b[1;25r\u001b[12;53H"
+    ],
+    [
+      0.000102,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.000607,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "\u001b[14;24r\u001b[2S\u001b[22;20Hpacket_write_wait: Connection to 54.36.112.195 port 22: Broken pipe\u001b[1;25r\u001b[12;20H"
+    ],
+    [
+      0.002059,
+      "\u001b[24;1H\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[24;1H \u001b[12;20H"
+    ],
+    [
+      0.001417,
+      "\u001b[?25l\u001b[25;1H\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 09:48 23-sty-18\u001b(B\u001b[m\u001b[12;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.05926,
+      "\u001b[14;24r\u001b[24;1H\u001b[K\u001b[31m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[12;20H"
+    ],
+    [
+      2.3,
+      "traceroute 54.36.112.195"
+    ],
+    [
+      0.551552,
+      "\u001b[1;12r\u001b[12;80H\n\rtraceroute to 54.36.112.195 (54.36.112.195), 30 hops max, 60 byte packets\u001b[1;25r\u001b[12;74H"
+    ],
+    [
+      0.000272,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.057836,
+      " 1  54.37.130.1 (54.37.130.1)  0.576 ms  0.553 ms"
+    ],
+    [
+      0.000261,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;50H  0.543 ms\r\n 2  192.168.250.254 (192.168.250.254)  0.534 ms  0.526 ms\u001b[1;25r\u001b[12;58H"
+    ],
+    [
+      4.7e-05,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;58H  0.518 ms\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.008319,
+      "\u001b[1;12r\u001b[4S\u001b[8;1H 3  10.13.32.62 (10.13.32.62)  0.511 ms  0.503 ms  0.494 ms\r\n 4  10.13.48.2 (10.13.48.2)  1.033 ms  1.026 ms 10.13.48.4 (10.13.48.4)  1.005 ms\r\n 5  10.95.100.0 (10.95.100.0)  1.005 ms 10.95.100.2 (10.95.100.2)  0.993 ms 10.95.100.0 (10.95.100.0)  0.986 ms\u001b[1;25r\u001b[12;32H"
+    ],
+    [
+      2.3,
+      "\u001b[1;12r\u001b[12;80H\n\r 6  * * *\u001b[1;25r\u001b[12;10H"
+    ],
+    [
+      0.000394,
+      "\u001b[1;12r\u001b[2S\u001b[11;1H 7  * * *\r\n 8  10.73.40.28 (10.73.40.28)  20.945 ms\u001b[1;25r\u001b[12;41H"
+    ],
+    [
+      0.06826,
+      "\u001b[1;12r\u001b[8S\u001b[4;41H  21.189 ms  21.190 ms\r\n 9  10.73.40.21 (10.73.40.21)  21.183 ms 10.73.40.25 (10.73.40.25)  21.245 ms 10.73.40.21 (10.73.40.21)  21.050 ms\r\n10  10.17.241.83 (10.17.241.83)  20.910 ms  20.901 ms 10.17.241.81 (10.17.241.81)  20.981 ms\r\n11  10.13.64.49 (10.13.64.49)  20.847 ms  20.938 ms  21.573 ms\r\n12  10.13.86.8 (10.13.86.8)  21.536 ms  21.534 ms  20.853 ms\r\n13  * * *\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.336564,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1H14  ip-54-36-112.eu (54.36.112.195)  21.335 ms  21.205 ms  21.892 ms\r\nubuntu@serwer-1:~$ \u001b[1;25r\u001b[12;20H"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\r\n─────────────────────────────────────────\u001b[32m───────────────────────────────────────\u001b(B\u001b[m\u001b[24;6H\u001b[?12l\u001b[?25h\u001b[?2004h"
+    ],
+    [
+      0.715997,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H\u001b[?2004l"
+    ],
+    [
+      0.013165,
+      "\u001b[?25l\u001b[H--- 54.36.112.195 ping statistics ---\u001b[K\r\n2 packets transmitted, 2 received, 0% packet loss, time 1001ms\u001b[K\r\nrtt min/avg/max/mdev = 21.210/21.211/21.213/0.145 ms\u001b[K\r\nubuntu@serwer-1:~$ traceroute 54.36.112.195\u001b[K\r\ntraceroute to 54.36.112.195 (54.36.112.195), 30 hops max, 60 byte packets\u001b[K\r\n 1  54.37.130.1 (54.37.130.1)  0.576 ms  0.553 ms  0.543 ms\u001b[K\r\n 2  192.168.250.254 (192.168.250.254)  0.534 ms  0.526 ms  0.518 ms\u001b[K\r\n 3  10.13.32.62 (10.13.32.62)  0.511 ms  0.503 ms  0.494 ms\u001b[K\r\n 4  10.13.48.2 (10.13.48.2)  1.033 ms  1.026 ms 10.13.48.4 (10.13.48.4)  1.005 ms\u001b[K\r\n 5  10.95.100.0 (10.95.100.0)  1.005 ms 10.95.100.2 (10.95.100.2)  0.993 ms 10.95.100.0 (10.95.100.0)  0.986 ms\u001b[K\r\n 6  * * *\u001b[K\r\n 7  * * *\u001b[K\r\n 8  10.73.40.28 (10.73.40.28)  20.945 ms  21.189 ms  21.190 ms\u001b[K\r\n 9  10.73.40.21 (10.73.40.21)  21.183 ms 10.73.40.25 (10.73.40.25)  21.245 ms 10.73.40.21 (10.73.40.21)  21.050 ms\u001b[K\r\n10  10.17.241.83 (10.17.241.83)  20.910 ms  20.901 ms 10.17.241.81 (10.17.241.81)  20.981 ms\u001b[K\r\n11  10.13."
+    ],
+    [
+      8.8e-05,
+      "64.49 (10.13.64.49)  20.847 ms  20.938 ms  21.573 ms\u001b[K\r\n12  10.13.86.8 (10.13.86.8)  21.536 ms  21.534 ms  20.853 ms\u001b[K\r\n13  * * *\u001b[K\r\n14  ip-54-36-112.eu (54.36.112.195)  21.335 ms  21.205 ms  21.892 ms\u001b[K\r\nubuntu@serwer-1:~$\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 09:48 23-sty-18\u001b(B\u001b[m\u001b[24;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "\r\u001b[K\u001b[1;24r\u001b[24;80H\n\u001b[23;1Hubuntu@serwer-1:~$ logout\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.002268,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[23;1HConnection to 54.37.131.118 closed.\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.001921,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[24;1H \r"
+    ],
+    [
+      0.014255,
+      "\u001b[1;24r\u001b[24;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[24;6H"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.630882,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H\u001b[?2004l"
+    ],
+    [
+      0.012818,
+      "\u001b[1;25r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.00043,
+      "[exited]\r\n"
+    ],
+    [
+      0.000618,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000144,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.012337,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      3e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

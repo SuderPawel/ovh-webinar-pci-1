@@ -1,0 +1,614 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 55.146187,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.424634,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.012484,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      2.7e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.711803,
+      "\u001b[7mssh ubuntu@145.239.28.185\u001b[27m"
+    ],
+    [
+      0.572744,
+      "\u001b[25D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m \u001b[27mu\u001b[27mb\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27mu\u001b[27m@\u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m8\u001b[27m.\u001b[27m1\u001b[27m8\u001b[27m5"
+    ],
+    [
+      0.000131,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001097,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.711064,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com"
+    ],
+    [
+      0.000605,
+      "\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n"
+    ],
+    [
+      0.000149,
+      "    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Mon Jan 22 18:49:52 2018 from 82.143.153.24\r\r\n"
+    ],
+    [
+      0.0514,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "s"
+    ],
+    [
+      4.9e-05,
+      "u"
+    ],
+    [
+      0.003695,
+      "do"
+    ],
+    [
+      0.000217,
+      " "
+    ],
+    [
+      3.4e-05,
+      "t"
+    ],
+    [
+      0.00245,
+      "a"
+    ],
+    [
+      0.000235,
+      "i"
+    ],
+    [
+      0.003048,
+      "l"
+    ],
+    [
+      0.001627,
+      " "
+    ],
+    [
+      0.003503,
+      "-f /var/log/syslog"
+    ],
+    [
+      0.561294,
+      "\r\n"
+    ],
+    [
+      0.012675,
+      "Jan 22 18:55:03 serwer-1 systemd[1]: Created slice User Slice of ubuntu.\r\nJan 22 18:55:03 serwer-1 systemd[1]: Starting User Manager for UID 1000...\r\nJan 22 18:55:03 serwer-1 systemd[1]: Started Session 2 of user ubuntu.\r\nJan 22 18:55:03 serwer-1 systemd[1510]: Reached target Timers.\r\nJan 22 18:55:03 serwer-1 systemd[1510]: Reached target Sockets.\r\nJan 22 18:55:03 serwer-1 systemd[1510]: Reached target Paths.\r\nJan 22 18:55:03 serwer-1 systemd[1510]: Reached target Basic System.\r\nJan 22 18:55:03 serwer-1 systemd[1510]: Reached target Default.\r\nJan 22 18:55:03 serwer-1 systemd[1510]: Startup finished in 22ms.\r\nJan 22 18:55:03 serwer-1 systemd[1]: Started User Manager for UID 1000.\r\n"
+    ],
+    [
+      2.3,
+      "Connection to 145.239.28.185 closed by remote host.\r\r\nConnection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.002173,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000237,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.014127,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      3.3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "ssh ubuntu@145.239.28.185"
+    ],
+    [
+      1.846896,
+      "\b\b\b"
+    ],
+    [
+      0.179824,
+      "\b\b\b"
+    ],
+    [
+      0.16415,
+      "\b\b\b\b"
+    ],
+    [
+      0.347984,
+      "\b\b\b\b"
+    ],
+    [
+      0.398154,
+      "\b"
+    ],
+    [
+      0.427107,
+      "\b\b\b\b\b\b\u001b[6P\u001b[15C      \u001b[21D"
+    ],
+    [
+      0.391477,
+      "d@145.239.28.185\u001b[15D"
+    ],
+    [
+      0.136149,
+      "e@145.239.28.185\u001b[15D"
+    ],
+    [
+      0.128039,
+      "b@145.239.28.185\u001b[15D"
+    ],
+    [
+      0.16495,
+      "i@145.239.28.185\u001b[15D"
+    ],
+    [
+      0.103755,
+      "a@145.239.28.185\u001b[15D"
+    ],
+    [
+      0.087697,
+      "n@145.239.28.185\u001b[15D"
+    ],
+    [
+      0.271848,
+      "\u001b[?1l\u001b>\u001b[?2004l"
+    ],
+    [
+      4.6e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000774,
+      "\u001b]2;ssh debian@145.239.28.185\u0007\u001b]1;debian@145.239.28.185\u0007"
+    ],
+    [
+      2.3,
+      "ssh: connect to host 145.239.28.185 port 22: Operation timed out\r\r\n"
+    ],
+    [
+      0.002245,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000157,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.014923,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      7.1e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "ssh debian@145.239.28.185"
+    ],
+    [
+      0.15333,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      4.9e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000678,
+      "\u001b]2;ssh debian@145.239.28.185\u0007\u001b]1;debian@145.239.28.185\u0007"
+    ],
+    [
+      1.780585,
+      "ssh: connect to host 145.239.28.185 port 22: Connection refused\r\r\n"
+    ],
+    [
+      0.001386,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000249,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.013727,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      3.3e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "ssh debian@145.239.28.185"
+    ],
+    [
+      0.361976,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3.7e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000742,
+      "\u001b]2;ssh debian@145.239.28.185\u0007\u001b]1;debian@145.239.28.185\u0007"
+    ],
+    [
+      0.176359,
+      "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\r\n@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @\r\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\r\nIT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\r\r\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)!\r\r\nIt is also possible that a host key has just been changed.\r\r\nThe fingerprint for the ECDSA key sent by the remote host is\r\nSHA256:oRi3wHKLKDCbTtq2ndCrAE3BCbyD+L+3LFIYWsrQkSM.\r\r\nPlease contact your system administrator.\r\r\nAdd correct host key in /Users/psuder/.ssh/known_hosts to get rid of this message.\r\r\nOffending ECDSA key in /Users/psuder/.ssh/known_hosts:39\r\r\nECDSA host key for 145.239.28.185 has changed and you have requested strict checking.\r\r\nHost key verification failed.\r\r\n"
+    ],
+    [
+      0.001712,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000161,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      3.3e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.015821,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      3.3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "\u001b[7mssh-keygen -R 145.239.28.185\u001b[27m"
+    ],
+    [
+      0.436151,
+      "\u001b[28D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m-\u001b[27mk\u001b[27me\u001b[27my\u001b[27mg\u001b[27me\u001b[27mn\u001b[27m \u001b[27m-\u001b[27mR\u001b[27m \u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m8\u001b[27m.\u001b[27m1\u001b[27m8\u001b[27m5"
+    ],
+    [
+      4.6e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3.4e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.002029,
+      "\u001b]2;ssh-keygen -R 145.239.28.185\u0007\u001b]1;ssh-keygen\u0007"
+    ],
+    [
+      0.058165,
+      "# Host 145.239.28.185 found: line 39\r\n"
+    ],
+    [
+      0.001785,
+      "/Users/psuder/.ssh/known_hosts updated.\r\nOriginal contents retained as /Users/psuder/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.001239,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000259,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      6.6e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.013979,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      4.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.8e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.974003,
+      "ssh-keygen -R 145.239.28.185"
+    ],
+    [
+      0.196021,
+      "\u001b[25D debian@\u001b[3P\u001b[14C   \b\b\b"
+    ],
+    [
+      0.581234,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      4.2e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001801,
+      "\u001b]2;ssh debian@145.239.28.185\u0007\u001b]1;debian@145.239.28.185\u0007"
+    ],
+    [
+      0.18007,
+      "The authenticity of host '145.239.28.185 (145.239.28.185)' can't be established.\r\nECDSA key fingerprint is SHA256:oRi3wHKLKDCbTtq2ndCrAE3BCbyD+L+3LFIYWsrQkSM.\r\nAre you sure you want to continue connecting (yes/no)? "
+    ],
+    [
+      1.621614,
+      "y"
+    ],
+    [
+      0.036271,
+      "e"
+    ],
+    [
+      0.15975,
+      "s"
+    ],
+    [
+      0.348761,
+      "\r\n"
+    ],
+    [
+      0.000438,
+      "Warning: Permanently added '145.239.28.185' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.207102,
+      "Linux serwer-1 4.9.0-5-amd64 #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) x86_64\r\n\r\nThe programs included with the Debian GNU/Linux system are free software;\r\nthe exact distribution terms for each program are described in the\r\nindividual files in /usr/share/doc/*/copyright.\r\n\r\nDebian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent\r\npermitted by applicable law.\r\n"
+    ],
+    [
+      0.010407,
+      "_____________________________________________________________________\r\n"
+    ],
+    [
+      9.2e-05,
+      "WARNING! Your environment specifies an invalid locale.\r\n"
+    ],
+    [
+      0.000444,
+      " The unknown environment variables are:"
+    ],
+    [
+      0.000194,
+      "\r\n"
+    ],
+    [
+      0.000785,
+      "   LC_CTYPE=pl_PL.UTF-8 LC_ALL=\r\n"
+    ],
+    [
+      0.017849,
+      " This can affect your user experience significantly, including the\r\n ability to manage packages. You may install the locales by running:\r\n\r\n   sudo apt-get install language-pack-pl\r\n     or\r\n   sudo locale-gen pl_PL.UTF-8\r\n\r\nTo see all available language packs, run:\r\n   apt-cache search \"^language-pack-[a-z][a-z]$\"\r\nTo disable this message for all users, run:\r\n   sudo touch /var/lib/cloud/instance/locale-check.skip\r\n_____________________________________________________________________\r\n\r\n\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "lsblk"
+    ],
+    [
+      0.321287,
+      "\r\n"
+    ],
+    [
+      0.002914,
+      "NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT\r\n"
+    ],
+    [
+      0.000684,
+      "sda      8:0    0  1.5G  0 disk "
+    ],
+    [
+      0.001198,
+      "\r\n`-sda1   8:1    0  1.5G  0 part /"
+    ],
+    [
+      8e-05,
+      "\r\nsdb      8:16   0   40G  0 disk \r\n"
+    ],
+    [
+      0.000542,
+      "`-sdb1   8:17   0   40G  0 part "
+    ],
+    [
+      0.045159,
+      "\r\n\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "df -h | grep sd"
+    ],
+    [
+      0.45579,
+      "\r\n"
+    ],
+    [
+      0.00266,
+      "/dev/sda1       1.5G  985M  367M  73% /\r\n"
+    ],
+    [
+      0.001972,
+      "\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "sudo mkdir /mnt/root"
+    ],
+    [
+      0.339727,
+      "\r\n"
+    ],
+    [
+      0.013601,
+      "\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "sudo mount /dev/sdb1 /mnt/root"
+    ],
+    [
+      0.35141,
+      "\r\n"
+    ],
+    [
+      0.019026,
+      "\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "lsblk"
+    ],
+    [
+      0.349071,
+      "\r\n"
+    ],
+    [
+      0.003865,
+      "NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT\r\n"
+    ],
+    [
+      0.000199,
+      "sda      8:0    0  1.5G  0 disk "
+    ],
+    [
+      0.000427,
+      "\r\n`-sda1   8:1    0  1.5G  0 part /"
+    ],
+    [
+      0.000192,
+      "\r\n"
+    ],
+    [
+      0.001094,
+      "sdb      8:16   0   40G  0 disk \r\n"
+    ],
+    [
+      0.000447,
+      "`-sdb1   8:17   0   40G  0 part /mnt/root"
+    ],
+    [
+      0.006106,
+      "\r\n\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "df -h | grep sd"
+    ],
+    [
+      0.386507,
+      "\r\n"
+    ],
+    [
+      0.00077,
+      "/dev/sda1       1.5G  985M  367M  73% /\r\n/dev/sdb1        39G  860M   38G   3% /mnt/root\r\n"
+    ],
+    [
+      0.001083,
+      "\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "ls /mnt/root"
+    ],
+    [
+      0.36855,
+      "\r\n"
+    ],
+    [
+      0.006917,
+      "\u001b[0m\u001b[01;34mbin\u001b[0m   \u001b[01;34metc\u001b[0m         \u001b[01;34mlib\u001b[0m         \u001b[01;34mmedia\u001b[0m  \u001b[01;34mproc\u001b[0m  \u001b[01;34msbin\u001b[0m  \u001b[01;34msys\u001b[0m  \u001b[01;34mvar\u001b[0m\r\n"
+    ],
+    [
+      0.000134,
+      "\u001b[01;34mboot\u001b[0m  \u001b[01;34mhome\u001b[0m        \u001b[01;34mlib64\u001b[0m       \u001b[01;34mmnt\u001b[0m    \u001b[01;34mroot\u001b[0m  \u001b[01;34msnap\u001b[0m  \u001b[30;42mtmp\u001b[0m  \u001b[01;36mvmlinuz\u001b[0m"
+    ],
+    [
+      0.000184,
+      "\r\n"
+    ],
+    [
+      0.000174,
+      "\u001b[01;34mdev\u001b[0m   \u001b[01;36minitrd.img\u001b[0m  \u001b[01;34mlost+found\u001b[0m  \u001b[01;34mopt\u001b[0m    \u001b[01;34mrun\u001b[0m   \u001b[01;34msrv\u001b[0m   \u001b[01;34musr\u001b[0m"
+    ],
+    [
+      0.000527,
+      "\r\n"
+    ],
+    [
+      0.000952,
+      "\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "sudo umount /dev/sdb1"
+    ],
+    [
+      0.715016,
+      "\r\n"
+    ],
+    [
+      0.032225,
+      "\u001b]0;debian@serwer-1: ~\u0007\u001b[01;32mdebian@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.392746,
+      "logout\r\n"
+    ],
+    [
+      0.001902,
+      "Connection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.001863,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000223,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.013281,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      4.2e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.678431,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

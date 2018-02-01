@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 40.707244,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.474859,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.021686,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      4.1e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      5.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.179338,
+      "\u001b[7mssh ubuntu@145.239.28.185\u001b[27m"
+    ],
+    [
+      0.397378,
+      "\u001b[25D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m \u001b[27mu\u001b[27mb\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27mu\u001b[27m@\u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m8\u001b[27m.\u001b[27m1\u001b[27m8\u001b[27m5"
+    ],
+    [
+      4.7e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001075,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.398921,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n29 packages can be updated.\r\n24 updates are security updates.\r\n\r\n\r\nLast login: Mon Jan 22 19:30:52 2018 from 82.143.153.24\r\r\n"
+    ],
+    [
+      0.048782,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "l"
+    ],
+    [
+      0.000201,
+      "sb"
+    ],
+    [
+      4.8e-05,
+      "l"
+    ],
+    [
+      0.000325,
+      "k"
+    ],
+    [
+      0.42721,
+      "\r\n"
+    ],
+    [
+      0.001535,
+      "NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\r\nsda      8:0    0  40G  0 disk \r\n`-sda1   8:1    0  40G  0 part /\r\n"
+    ],
+    [
+      0.000151,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "su"
+    ],
+    [
+      0.000397,
+      "d"
+    ],
+    [
+      0.000556,
+      "o"
+    ],
+    [
+      0.000201,
+      " "
+    ],
+    [
+      0.000885,
+      "t"
+    ],
+    [
+      0.000627,
+      "ail"
+    ],
+    [
+      0.000359,
+      " "
+    ],
+    [
+      0.011271,
+      "-n 2 -f /var/log/syslog | ccze -A"
+    ],
+    [
+      0.502873,
+      "\r\n"
+    ],
+    [
+      0.010408,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:31:55\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m1956.168432\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36msdb\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mAdd\u001b[0m\u001b[22m\u001b[36m.\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mSense\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mLogical\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36munit\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[33mnot\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msupported\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:27\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32msystemd\u001b[0m\u001b[22m\u001b[1m\u001b[32m[\u001b[0m\u001b[22m\u001b[1m\u001b[37m1\u001b[0m\u001b[22m\u001b[1m\u001b[32m]\u001b[0m\u001b[22m\u001b[32m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[32mStarted\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mSession\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m12\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mof\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36muser\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[33mubuntu\u001b[0m\u001b[22m\u001b[36m.\u001b[0m\u001b[22m\u001b[36m \u001b[0"
+    ],
+    [
+      8.8e-05,
+      "m\r\n"
+    ],
+    [
+      2.3,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.719864\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36mscsi\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mDirect-Access\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mQEMU\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mQEMU\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mHARDDISK\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m2.5+\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mPQ\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m0\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mANSI\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m5\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      0.001679,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.720380\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mAttached\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36mscsi\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mgeneric\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msg1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mtype\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m0\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      8.3e-05,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.720467\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36msdb\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m20971520\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m512-byte\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mlogical\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mblocks\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m(\u001b[0m\u001b[22m\u001b[1m\u001b[37m10.7\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mGB/10.0\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mGiB\u001b[0m\u001b[22m\u001b[36m)\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      0.000835,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.720593\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36msdb\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mWrite\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mProtect\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mis\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36moff\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      0.000758,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.720596\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36msdb\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mMode\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mSense\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m63\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m00\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m00\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[37m08\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      0.004828,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.720635\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36msdb\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mWrite\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mcache\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[32menabled\u001b[0m\u001b[22m\u001b[36m,\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mread\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mcache\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[32menabled\u001b[0m\u001b[22m\u001b[36m,\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mdoesn't\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[35msupport\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mDPO\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mor\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mFUA\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      0.000582,
+      "\u001b[22m\u001b[1m\u001b[36mJan 22 19:33:53\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[34mserwer-1\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[32mkernel:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[37m2074.721508\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36msd\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36m2:0:0:1\u001b[0m\u001b[22m\u001b[36m:\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36m[\u001b[0m\u001b[22m\u001b[36msdb\u001b[0m\u001b[22m\u001b[36m]\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mAttached\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[1m\u001b[36mSCSI\u001b[0m\u001b[22m\u001b[36m \u001b[0m\u001b[22m\u001b[36mdisk\u001b[0m\u001b[22m\u001b[36m \u001b[0m\r\n"
+    ],
+    [
+      2.3,
+      "^C"
+    ],
+    [
+      0.000857,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.001118,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "lsblk"
+    ],
+    [
+      0.412905,
+      "\r\n"
+    ],
+    [
+      0.002695,
+      "NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT"
+    ],
+    [
+      0.000207,
+      "\r\n"
+    ],
+    [
+      0.000413,
+      "sda      8:0    0  40G  0 disk "
+    ],
+    [
+      6.4e-05,
+      "\r\n"
+    ],
+    [
+      0.00078,
+      "`-sda1   8:1    0  40G  0 part /"
+    ],
+    [
+      0.000644,
+      "\r\nsdb      8:16   0  10G  0 disk "
+    ],
+    [
+      0.000288,
+      "\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "s"
+    ],
+    [
+      0.000194,
+      "u"
+    ],
+    [
+      0.00024,
+      "d"
+    ],
+    [
+      0.000316,
+      "o "
+    ],
+    [
+      0.000134,
+      "m"
+    ],
+    [
+      0.001174,
+      "kf"
+    ],
+    [
+      0.000271,
+      "s"
+    ],
+    [
+      0.000462,
+      "."
+    ],
+    [
+      0.01115,
+      "ext4 /dev/sdb"
+    ],
+    [
+      0.508268,
+      "\r\n"
+    ],
+    [
+      0.009151,
+      "mke2fs 1.42.13 (17-May-2015)"
+    ],
+    [
+      0.003016,
+      "\r\n"
+    ],
+    [
+      0.012433,
+      "Discarding device blocks: "
+    ],
+    [
+      0.00013,
+      "   4096/2621440"
+    ],
+    [
+      0.000388,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.085557,
+      "1576960/2621440"
+    ],
+    [
+      0.000147,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.038636,
+      "               \b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.000245,
+      "done                            "
+    ],
+    [
+      0.000275,
+      "\r\n"
+    ],
+    [
+      0.000638,
+      "Creating filesystem with 2621440 4k blocks and 655360 inodes"
+    ],
+    [
+      0.000297,
+      "\r\nFilesystem UUID: 9b43cd84-e248-49f1-b5d6-fcd9e71059cc"
+    ],
+    [
+      0.000116,
+      "\r\n"
+    ],
+    [
+      0.000619,
+      "Superblock backups stored on blocks: "
+    ],
+    [
+      0.000177,
+      "\r\n"
+    ],
+    [
+      0.012455,
+      "\t32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632\r\n\r\nAllocating group tables:  0/80\b\b\b\b\b     \b\b\b\b\bdone                            \r\nWriting inode tables:  0/80\b\b\b\b\b     \b\b\b\b\bdone                            \r\nCreating journal (32768 blocks): "
+    ],
+    [
+      0.073091,
+      "done\r\nWriting superblocks and filesystem accounting information:  0/80"
+    ],
+    [
+      0.000279,
+      "\b\b\b\b\b"
+    ],
+    [
+      0.001559,
+      "     \b\b\b\b\b"
+    ],
+    [
+      0.296154,
+      "done\r\n\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "su"
+    ],
+    [
+      0.001316,
+      "do"
+    ],
+    [
+      0.000146,
+      " "
+    ],
+    [
+      0.000177,
+      "m"
+    ],
+    [
+      0.000323,
+      "k"
+    ],
+    [
+      0.000426,
+      "d"
+    ],
+    [
+      0.000308,
+      "ir"
+    ],
+    [
+      0.011782,
+      " /mnt/disk"
+    ],
+    [
+      0.509697,
+      "\r\n"
+    ],
+    [
+      0.008795,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "sudo mount /dev/sdb /mnt/disk"
+    ],
+    [
+      0.553572,
+      "\r\n"
+    ],
+    [
+      0.019382,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "lsblk"
+    ],
+    [
+      0.53022,
+      "\r\n"
+    ],
+    [
+      0.002044,
+      "NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\r\nsda      8:0    0  40G  0 disk \r\n`-sda1   8:1    0  40G  0 part /\r\nsdb      8:16   0  10G  0 disk /mnt/disk\r\n"
+    ],
+    [
+      0.000672,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "d"
+    ],
+    [
+      0.000465,
+      "f"
+    ],
+    [
+      0.000338,
+      " "
+    ],
+    [
+      0.004412,
+      "-h"
+    ],
+    [
+      0.411469,
+      "\r\n"
+    ],
+    [
+      0.004854,
+      "Filesystem      Size  Used Avail Use% Mounted on\r\nudev            3.8G     0  3.8G   0% /dev\r\ntmpfs           780M  8.6M  771M   2% /run\r\n/dev/sda1        39G 1021M   38G   3% /\r\ntmpfs           3.9G     0  3.9G   0% /dev/shm\r\ntmpfs           5.0M     0  5.0M   0% /run/lock\r\ntmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup\r\ntmpfs           780M     0  780M   0% /run/user/1000\r\n/dev/sdb        9.8G   23M  9.2G   1% /mnt/disk\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "su"
+    ],
+    [
+      0.000458,
+      "d"
+    ],
+    [
+      0.000232,
+      "o"
+    ],
+    [
+      0.000549,
+      " "
+    ],
+    [
+      0.000119,
+      "t"
+    ],
+    [
+      0.000898,
+      "ou"
+    ],
+    [
+      0.000347,
+      "ch"
+    ],
+    [
+      0.012817,
+      " /mnt/disk/file1"
+    ],
+    [
+      0.535176,
+      "\r\n"
+    ],
+    [
+      0.008603,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "l"
+    ],
+    [
+      0.000148,
+      "s"
+    ],
+    [
+      0.000143,
+      " "
+    ],
+    [
+      0.000251,
+      "/"
+    ],
+    [
+      0.001385,
+      "m"
+    ],
+    [
+      0.001591,
+      "nt"
+    ],
+    [
+      0.000321,
+      "/"
+    ],
+    [
+      0.000148,
+      "d"
+    ],
+    [
+      0.000428,
+      "i"
+    ],
+    [
+      0.016886,
+      "sk"
+    ],
+    [
+      0.443811,
+      "\r\n"
+    ],
+    [
+      0.002075,
+      "file1  \u001b[0m\u001b[01;34mlost+found\u001b[0m\r\n"
+    ],
+    [
+      0.000743,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "d"
+    ],
+    [
+      0.000711,
+      "f -"
+    ],
+    [
+      0.000217,
+      "h"
+    ],
+    [
+      0.00218,
+      " | g"
+    ],
+    [
+      0.001387,
+      "re"
+    ],
+    [
+      0.00021,
+      "p"
+    ],
+    [
+      0.008871,
+      " sd"
+    ],
+    [
+      0.41498,
+      "\r\n"
+    ],
+    [
+      0.002563,
+      "/dev/\u001b[01;31m\u001b[Ksd\u001b[m\u001b[Ka1        39G 1021M   38G   3% /\r\n"
+    ],
+    [
+      0.000441,
+      "/dev/\u001b[01;31m\u001b[Ksd\u001b[m\u001b[Kb        9.8G   23M  9.2G   1% /mnt/disk\r\n"
+    ],
+    [
+      0.001136,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "logout\r\n"
+    ],
+    [
+      0.000121,
+      "Connection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.002027,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000167,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.014608,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      0.000158,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.5e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.993252,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

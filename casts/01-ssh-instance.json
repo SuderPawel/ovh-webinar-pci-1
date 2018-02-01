@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 14.5085,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.373728,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.011712,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      0.000382,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      1.354633,
+      "\u001b[7mssh ubuntu@145.239.28.185\u001b[27m"
+    ],
+    [
+      0.558694,
+      "\u001b[25D\u001b[27ms\u001b[27ms\u001b[27mh\u001b[27m \u001b[27mu\u001b[27mb\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27mu\u001b[27m@\u001b[27m1\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m2\u001b[27m3\u001b[27m9\u001b[27m.\u001b[27m2\u001b[27m8\u001b[27m.\u001b[27m1\u001b[27m8\u001b[27m5"
+    ],
+    [
+      3.7e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.6e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001106,
+      "\u001b]2;ssh ubuntu@145.239.28.185\u0007\u001b]1;ubuntu@145.239.28.185\u0007"
+    ],
+    [
+      0.625697,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\r\n"
+    ],
+    [
+      0.000429,
+      "\r\n"
+    ],
+    [
+      6.1e-05,
+      " * Documentation:  https://help.ubuntu.com\r\n"
+    ],
+    [
+      0.001451,
+      " * Management:     https://landscape.canonical.com\r\n"
+    ],
+    [
+      0.0001,
+      " * Support:        https://ubuntu.com/advantage\r\n"
+    ],
+    [
+      0.031086,
+      "\r\n  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\nLast login: Mon Jan 22 18:46:16 2018 from 82.143.153.24\r\r\nTo run a command as administrator (user \"root\"), use \"sudo <command>\".\r\nSee \"man sudo_root\" for details.\r\n\r\n"
+    ],
+    [
+      0.06876,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "lscpu | grep -e Architecture -e CPU -e Thread -e Core"
+    ],
+    [
+      0.51492,
+      "\r\n"
+    ],
+    [
+      0.003651,
+      "\u001b[01;31m\u001b[KArchitecture\u001b[m\u001b[K:          x86_64\r\n"
+    ],
+    [
+      0.000169,
+      "\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K op-mode(s):        32-bit, 64-bit"
+    ],
+    [
+      0.000391,
+      "\r\n"
+    ],
+    [
+      0.000963,
+      "\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K(s):                1\r\n"
+    ],
+    [
+      0.000121,
+      "On-line \u001b[01;31m\u001b[KCPU\u001b[m\u001b[K(s) list:   0\r\n"
+    ],
+    [
+      0.000528,
+      "\u001b[01;31m\u001b[KThread\u001b[m\u001b[K(s) per core:    1"
+    ],
+    [
+      0.007014,
+      "\r\n\u001b[01;31m\u001b[KCore\u001b[m\u001b[K(s) per socket:    1\r\n\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K family:            6\r\nModel name:            Intel \u001b[01;31m\u001b[KCore\u001b[m\u001b[K Processor (Haswell, no TSX)\r\n\u001b[01;31m\u001b[KCPU\u001b[m\u001b[K MHz:               2394.444\r\nNUMA node0 \u001b[01;31m\u001b[KCPU\u001b[m\u001b[K(s):     0\r\n\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "free -m"
+    ],
+    [
+      0.403326,
+      "\r\n"
+    ],
+    [
+      0.003784,
+      "              total        used        free      shared  buff/cache   available\r\n"
+    ],
+    [
+      0.000371,
+      "Mem:           1952          46        1701           3         204        1751"
+    ],
+    [
+      0.0002,
+      "\r\nSwap:             0           0           0"
+    ],
+    [
+      0.000314,
+      "\r\n"
+    ],
+    [
+      0.000778,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.3,
+      "ls"
+    ],
+    [
+      0.00094,
+      "b"
+    ],
+    [
+      9.4e-05,
+      "lk"
+    ],
+    [
+      0.681084,
+      "\r\n"
+    ],
+    [
+      0.005677,
+      "NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT"
+    ],
+    [
+      0.001928,
+      "\r\nsda      8:0    0  10G  0 disk "
+    ],
+    [
+      0.000278,
+      "\r\n`-sda1   8:1    0  10G  0 part /"
+    ],
+    [
+      0.000159,
+      "\r\n"
+    ],
+    [
+      0.000252,
+      "\u001b]0;ubuntu@serwer-1: ~\u0007\u001b[01;32mubuntu@serwer-1\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.470012,
+      "logout\r\n"
+    ],
+    [
+      0.000972,
+      "Connection to 145.239.28.185 closed.\r\r\n"
+    ],
+    [
+      0.001802,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.000129,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.01389,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      2.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.4e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.454504,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

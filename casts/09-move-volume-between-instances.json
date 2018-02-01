@@ -1,0 +1,702 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 68.106201,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.373927,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;psuder@LAPTOP910323: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.011586,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      7.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000216,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "\u001b[7mtmux\u001b[27m"
+    ],
+    [
+      0.374076,
+      "\b\b\b\b\u001b[27mt\u001b[27mm\u001b[27mu\u001b[27mx"
+    ],
+    [
+      5.2e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      9.7e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.002025,
+      "\u001b]2;tmux\u0007\u001b]1;tmux\u0007"
+    ],
+    [
+      0.028455,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[c\u001b(B\u001b[m\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[?1003l\u001b[?1006l\u001b[?2004l\u001b[1;1H\u001b[1;25r\u001b]112\u0007\u001b[1;1H"
+    ],
+    [
+      0.001058,
+      "\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:zsh*                                  \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000129,
+      "\u001b(B\u001b[m\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[?1003l\u001b[?1006l\u001b[?2004l\u001b[1;1H\u001b[1;25r\u001b[1;1H"
+    ],
+    [
+      0.000878,
+      "\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:zsh*                                  \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.383653,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[1;1H \u001b[H"
+    ],
+    [
+      0.000781,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011012,
+      "\u001b[1;24r\u001b[2;24r\u001b[23S\u001b[1;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[1;25r\u001b[1;6H\u001b[K"
+    ],
+    [
+      0.000172,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "\u001b[7mssh ubuntu@145.239.28.185\u001b(B\u001b[m"
+    ],
+    [
+      0.417685,
+      "\u001b[6Gssh ubuntu@145.239.28.185"
+    ],
+    [
+      4.1e-05,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.001938,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:ubuntu@145.239.28.185*                \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[2;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.391919,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)\u001b[4;1H * Documentation:  https://help.ubuntu.com\r\n"
+    ],
+    [
+      0.001274,
+      " * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\u001b[8;1H  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud"
+    ],
+    [
+      0.000238,
+      "\u001b[11;1H29 packages can be updated.\r\n24 updates are security updates.\u001b[15;1HLast login: Mon Jan 22 20:01:06 2018 from 82.143.153.24\r\n"
+    ],
+    [
+      0.06425,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "l"
+    ],
+    [
+      0.000107,
+      "sblk"
+    ],
+    [
+      0.396902,
+      "\r\n"
+    ],
+    [
+      0.002481,
+      "NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\r\nsda      8:0    0  40G  0 disk \r\n`-sda1   8:1    0  40G  0 part /\r\nsdb      8:16   0  12G  0 disk \r\n"
+    ],
+    [
+      0.000293,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "su"
+    ],
+    [
+      4.7e-05,
+      "do "
+    ],
+    [
+      0.000936,
+      "ta"
+    ],
+    [
+      0.000416,
+      "il"
+    ],
+    [
+      0.000986,
+      " -"
+    ],
+    [
+      0.000397,
+      "n"
+    ],
+    [
+      0.011472,
+      " 1 -f /var/log/syslog | ccze -A"
+    ],
+    [
+      0.635495,
+      "\r\n"
+    ],
+    [
+      0.00811,
+      "\u001b[36m\u001b[1mJan 22 20:03:21\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-1\u001b(B\u001b[m\u001b[36m \u001b[32msystemd\u001b[1m[\u001b[37m1\u001b[32m]\u001b(B\u001b[m\u001b[32m:\u001b[36m \u001b[32m\u001b[1mStarted\u001b(B\u001b[m\u001b[36m Session \u001b[37m17\u001b[36m of user \u001b[33m\u001b[1mubuntu\u001b(B\u001b[m\u001b[36m. \r\n\u001b(B\u001b[m"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\u001b[10A─────────────────────────────────────────\u001b[32m───────────────────────────────────────\u001b[1;1H\u001b(B\u001b[m24 updates are security updates.\u001b[K\r\n\u001b[K\r\n\u001b[K\r\nLast login: Mon Jan 22 20:01:06 2018 from 82.143.153.24\u001b[K\r\nubuntu@serwer-1:~$ lsblk\u001b[K\r\nNAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\u001b[K\r\nsda      8:0    0  40G  0 disk\u001b[K\r\n`-sda1   8:1    0  40G  0 part /\u001b[K\r\nsdb      8:16   0  12G  0 disk\u001b[K\r\nubuntu@serwer-1:~$ sudo tail -n 1 -f /var/log/syslog | ccze -A\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:03:21\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-1\u001b(B\u001b[m\u001b[36m \u001b[32msystemd\u001b[1m[\u001b[37m1\u001b[32m]\u001b(B\u001b[m\u001b[32m:\u001b[36m \u001b[32m\u001b[1mStarted\u001b(B\u001b[m\u001b[36m Session \u001b[37m17\u001b[36m of user \u001b[33m\u001b[1mubuntu\u001b(B\u001b[m\u001b[36m. \u001b[39m\u001b[K\r\n\u001b[K\u001b[2B\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:ubuntu@145.239.28.185*                \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[14;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.376988,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[14;1H \r"
+    ],
+    [
+      0.000946,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[14;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.009997,
+      "\u001b[14;24r\u001b[15;24r\u001b[10S\u001b[14;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[14;6H"
+    ],
+    [
+      0.000103,
+      "\u001b[?2004h"
+    ],
+    [
+      2.3,
+      "\u001b[7mssh ubuntu@54.37.130.83\u001b(B\u001b[m"
+    ],
+    [
+      0.508006,
+      "\u001b[6Gssh ubuntu@54.37.130.83"
+    ],
+    [
+      0.000113,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.002313,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:ubuntu@54.37.130.83*                  \"LAPTOP910323.local\" 21:03 22-sty-18\u001b(B\u001b[m\u001b[15;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.360374,
+      "Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-108-generic x86_64)"
+    ],
+    [
+      0.000436,
+      "\r\n"
+    ],
+    [
+      0.000325,
+      "\r\n"
+    ],
+    [
+      0.000133,
+      " * Documentation:  https://help.ubuntu.com\r\n"
+    ],
+    [
+      0.000667,
+      " * Management:     https://landscape.canonical.com"
+    ],
+    [
+      0.000319,
+      "\r\n * Support:        https://ubuntu.com/advantage"
+    ],
+    [
+      0.000247,
+      "\r\n"
+    ],
+    [
+      0.012054,
+      "\u001b[14;24r\u001b[5S\u001b[16;1H  Get cloud support with Ubuntu Advantage Cloud Guest:\r\n    http://www.ubuntu.com/business/services/cloud\u001b[19;1H29 packages can be updated.\r\n24 updates are security updates.\u001b[23;1HLast login: Mon Jan 22 20:01:54 2018 from 82.143.153.24\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.035685,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "l"
+    ],
+    [
+      0.000209,
+      "s"
+    ],
+    [
+      0.000362,
+      "bl"
+    ],
+    [
+      0.00103,
+      "k"
+    ],
+    [
+      0.417768,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.002572,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;1HNAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000123,
+      "sda      8:0    0  10G  0 disk "
+    ],
+    [
+      0.000705,
+      "\u001b[14;24r\u001b[24;80H\n\r`-sda1   8:1    0  10G  0 part /\u001b[1;25r\u001b[24;33H"
+    ],
+    [
+      0.000293,
+      "\u001b[14;24r\u001b[24;80H\n\rubuntu@serwer-2:~$ \u001b[1;25r\u001b[24;20H"
+    ],
+    [
+      2.3,
+      "sudo"
+    ],
+    [
+      0.000437,
+      " ta"
+    ],
+    [
+      0.000356,
+      "il -"
+    ],
+    [
+      0.000955,
+      "n "
+    ],
+    [
+      0.000639,
+      "1 "
+    ],
+    [
+      0.000172,
+      "-f"
+    ],
+    [
+      0.000164,
+      " /"
+    ],
+    [
+      0.001634,
+      "v"
+    ],
+    [
+      0.009579,
+      "ar/log/syslog | ccze -A"
+    ],
+    [
+      0.761969,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.008467,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;1H\u001b[36m\u001b[1mJan 22 20:03:48\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32msystemd\u001b[1m[\u001b[37m1\u001b[32m]\u001b(B\u001b[m\u001b[32m:\u001b[36m \u001b[32m\u001b[1mStarted\u001b(B\u001b[m\u001b[36m Session \u001b[37m4\u001b[36m of user \u001b[33m\u001b[1mubuntu\u001b(B\u001b[m\u001b[36m. \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\r\n\u001b[30m\u001b[42m[0] 0:ubuntu@54.37.130.83*                  \"LAPTOP910323.local\" 21:04 22-sty-18\u001b(B\u001b[m\u001b[24;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "\u001b[1;12r\u001b[2S\u001b[10;1H\u001b[36m\u001b[1mJan 22 20:04:18\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-1\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [ \u001b[37m\u001b[1m3899.194476\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Synchronizing \u001b[1mSCSI\u001b(B\u001b[m\u001b[36m cache \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m\u001b[1;12r\u001b[2S\u001b[10;1H\u001b[36m\u001b[1mJan 22 20:04:18\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-1\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [ \u001b[37m\u001b[1m3899.207142\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Synchronize Cache(10) \u001b[31m\u001b[1mfailed\u001b(B\u001b[m\u001b[36m: Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE "
+    ],
+    [
+      6.2e-05,
+      "\u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      0.000918,
+      "\u001b[1;12r\u001b[2S\u001b[10;1H\u001b[36m\u001b[1mJan 22 20:04:18\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-1\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [ \u001b[37m\u001b[1m3899.207176\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Sense Key : Illegal Request [current]  \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      0.000229,
+      "\u001b[1;12r\u001b[2S\u001b[10;1H\u001b[36m\u001b[1mJan 22 20:04:18\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-1\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [ \u001b[37m\u001b[1m3899.207183\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Add. Sense: Logical unit \u001b[33m\u001b[1mnot\u001b(B\u001b[m\u001b[36m supported \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      2.3,
+      "\u001b[14;24r\u001b[2S\u001b[22;1H\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.841254\u001b(B\u001b[m\u001b[36m] \u001b[1mscsi\u001b(B\u001b[m\u001b[36m \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: \u001b[37m0\u001b[36m ANSI: \u001b[37m5\u001b[36m \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      0.000588,
+      "\u001b[14;24r\u001b[2S\u001b[22;1H\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.842819\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: Attached \u001b[1mscsi\u001b(B\u001b[m\u001b[36m generic sg1 type \u001b[37m0\u001b[36m \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      0.000224,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;1H\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.842852\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] \u001b[37m25165824\u001b[36m 512-byte logical blocks: (\u001b[37m\u001b[1m12.9\u001b(B\u001b[m\u001b[36m GB/12.0 GiB) \u001b[1;25r\u001b[24;40H\u001b(B\u001b[m"
+    ],
+    [
+      0.000333,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000491,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;1H\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.843008\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Write Protect is off \u001b[1;25r\u001b[24;8H\u001b(B\u001b[m"
+    ],
+    [
+      0.002653,
+      "\u001b[14;24r\u001b[3S\u001b[22;1H\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.843010\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Mode Sense: \u001b[37m63\u001b[36m \u001b[37m00\u001b[36m \u001b[37m00\u001b[36m \u001b[37m08\u001b[36m \u001b[1;25r\u001b[24;1H\u001b(B\u001b[m"
+    ],
+    [
+      0.000568,
+      "\u001b[14;24r\u001b[2S\u001b[22;1H\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.843050\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Write cache: \u001b[32m\u001b[1menabled\u001b(B\u001b[m\u001b[36m, read cache: \u001b[32m\u001b[1menabled\u001b(B\u001b[m\u001b[36m, doesn't \u001b[35m\u001b[1msupport\u001b(B\u001b[m\u001b[36m DPO or FUA \r\n\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[1;25r\u001b[24;37H\u001b(B\u001b[m"
+    ],
+    [
+      8e-05,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[23;37H\u001b[37m\u001b[1m522.849384\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Attached \u001b[1mSCSI\u001b(B\u001b[m\u001b[36m disk \u001b[1;25r\u001b[24;6H\u001b(B\u001b[m"
+    ],
+    [
+      0.006771,
+      "\u001b[14;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      2.3,
+      "\u001b[?25l\u001b[32m\u001b[11A─────────────────────────────────────────\u001b[39m───────────────────────────────────────\u001b(B\u001b[m\u001b[12;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.789864,
+      "^C"
+    ],
+    [
+      0.001099,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.00044,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "lsblk"
+    ],
+    [
+      0.453353,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.003281,
+      "\u001b[1;12r\u001b[3S\u001b[9;1HNAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\r\nsda      8:0    0  40G  0 disk \r\n`-sda1   8:1    0  40G  0 part /\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.000533,
+      "ubuntu@serwer-1:~$ "
+    ],
+    [
+      2.3,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;20Hlogout\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.006986,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[11;1HConnection to 145.239.28.185 closed.\u001b[1;25r\u001b[12;1H"
+    ],
+    [
+      0.001946,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[12;1H \r"
+    ],
+    [
+      0.001391,
+      "\u001b[?25l\u001b[25d\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 21:04 22-sty-18\u001b(B\u001b[m\u001b[12;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01355,
+      "\u001b[1;12r\u001b[12;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[12;6H"
+    ],
+    [
+      3.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.865374,
+      "\u001b[1;12r\u001b[12;80H\n\u001b[1;25r\u001b[12;1H\u001b[?2004l"
+    ],
+    [
+      0.013557,
+      "\u001b[?25l\u001b[H\u001b[K\r\n\u001b[K\r\nLast login: Mon Jan 22 20:01:54 2018 from 82.143.153.24\u001b[K\r\nubuntu@serwer-2:~$ lsblk\u001b[K\r\nNAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\u001b[K\r\nsda      8:0    0  10G  0 disk\u001b[K\r\n`-sda1   8:1    0  10G  0 part /\u001b[K\r\nubuntu@serwer-2:~$ sudo tail -n 1 -f /var/log/syslog | ccze -A\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:03:48\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32msystemd\u001b[1m[\u001b[37m1\u001b[32m]\u001b(B\u001b[m\u001b[32m:\u001b[36m \u001b[32m\u001b[1mStarted\u001b(B\u001b[m\u001b[36m Session \u001b[37m4\u001b[36m of user \u001b[33m\u001b[1mubuntu\u001b(B\u001b[m\u001b[36m. \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.841254\u001b(B\u001b[m\u001b[36m] \u001b[1mscsi\u001b(B\u001b[m\u001b[36m \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: \u001b[37m0\u001b[36m ANSI: \u001b[37m5\u001b[36m \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.842819\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: Attached \u001b[1mscsi\u001b(B\u001b[m\u001b[36m generic sg1 type \u001b[37m0\u001b[36m \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b"
+    ],
+    [
+      9.3e-05,
+      "[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.842852\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] \u001b[37m25165824\u001b[36m 512-byte logical blocks: (\u001b[37m\u001b[1m12.9\u001b(B\u001b[m\u001b[36m GB/12.0 GiB) \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.843008\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Write Protect is off \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.843010\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Mode Sense: \u001b[37m63\u001b[36m \u001b[37m00\u001b[36m \u001b[37m00\u001b[36m \u001b[37m08\u001b[36m \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.843050\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b[36m: [sdb] Write cache: \u001b[32m\u001b[1menabled\u001b(B\u001b[m\u001b[36m, read cache: \u001b[32m\u001b[1menabled\u001b(B\u001b[m\u001b[36m, doesn't \u001b[35m\u001b[1msupport\u001b(B\u001b[m\u001b[36m DPO or FUA \u001b[39m\u001b[K\r\n\u001b[36m\u001b[1mJan 22 20:04:25\u001b(B\u001b[m\u001b[36m \u001b[34m\u001b[1mserwer-2\u001b(B\u001b[m\u001b[36m \u001b[32mkernel:\u001b[36m [  \u001b[37m\u001b[1m522.849384\u001b(B\u001b[m\u001b[36m] sd \u001b[1m2:0:0:1\u001b(B\u001b[m\u001b"
+    ],
+    [
+      0.000181,
+      "[36m: [sdb] Attached \u001b[1mSCSI\u001b(B\u001b[m\u001b[36m disk \u001b[39m\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 21:04 22-sty-18\u001b(B\u001b[m\u001b[24;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.28119,
+      "^C"
+    ],
+    [
+      0.000785,
+      "\u001b[1;24r\u001b[24;80H\n\rubuntu@serwer-2:~$ \u001b[1;25r\u001b[24;20H"
+    ],
+    [
+      2.3,
+      "lsblk"
+    ],
+    [
+      0.505403,
+      "\u001b[1;24r\u001b[24;80H\n\rNAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT\u001b[1;25r\u001b[24;42H"
+    ],
+    [
+      8.6e-05,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000637,
+      "sda      8:0    0  10G  0 disk "
+    ],
+    [
+      4.4e-05,
+      "\u001b[1;24r\u001b[24;80H\n\r`-sda1   8:1    0  10G  0 part /\u001b[1;25r\u001b[24;33H"
+    ],
+    [
+      0.002836,
+      "\u001b[1;24r\u001b[2S\u001b[23;1Hsdb      8:16   0  12G  0 disk \u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000146,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "\u001b[?25l\r\n\u001b[30m\u001b[42m[0] 0:~*                                    \"LAPTOP910323.local\" 21:05 22-sty-18\u001b(B\u001b[m\u001b[24;20H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.3,
+      "sudo mkdir /m"
+    ],
+    [
+      0.000423,
+      "n"
+    ],
+    [
+      0.000102,
+      "t/"
+    ],
+    [
+      0.00127,
+      "di"
+    ],
+    [
+      0.000381,
+      "s"
+    ],
+    [
+      0.000435,
+      "k"
+    ],
+    [
+      0.495774,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.005668,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "s"
+    ],
+    [
+      0.000173,
+      "u"
+    ],
+    [
+      0.000366,
+      "do "
+    ],
+    [
+      0.000567,
+      "mo"
+    ],
+    [
+      0.000417,
+      "un"
+    ],
+    [
+      0.000981,
+      "t"
+    ],
+    [
+      0.000673,
+      " /"
+    ],
+    [
+      0.000221,
+      "d"
+    ],
+    [
+      0.00023,
+      "e"
+    ],
+    [
+      0.000292,
+      "v/"
+    ],
+    [
+      0.009071,
+      "sdb /mnt/disk"
+    ],
+    [
+      0.965165,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.030684,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "mount | grep sdb"
+    ],
+    [
+      1.941305,
+      "\u001b[1;24r\u001b[24;80H\n\r/dev/\u001b[K\u001b[31m\u001b[1msdb\u001b(B\u001b[m\u001b[K\u001b[71C\n\u001b[23;9H on /mnt/disk type ext4 (rw,relatime,stripe=32592,data=ordered)\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.000835,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "df"
+    ],
+    [
+      3.5e-05,
+      " -h |"
+    ],
+    [
+      0.00053,
+      " gr"
+    ],
+    [
+      0.000354,
+      "ep"
+    ],
+    [
+      0.000142,
+      " "
+    ],
+    [
+      0.000758,
+      "s"
+    ],
+    [
+      0.000484,
+      "d"
+    ],
+    [
+      0.516175,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.004144,
+      "/dev/\u001b[K\u001b[31m\u001b[1msd\u001b(B\u001b[m\u001b[K\u001b[1;24r\u001b[24;80H\n\u001b[23;8Ha1       9.7G 1019M  8.7G  11% /\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      8.3e-05,
+      "/dev/\u001b[K\u001b[31m\u001b[1msd\u001b(B\u001b[m\u001b[Kb         12G   25M   12G   1% /mnt/disk"
+    ],
+    [
+      0.000781,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.001285,
+      "ubuntu@serwer-2:~$ "
+    ],
+    [
+      2.3,
+      "ls /mnt"
+    ],
+    [
+      0.000369,
+      "/disk"
+    ],
+    [
+      0.439658,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.004626,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[23;1Hfile1  file2  \u001b[34m\u001b[1mlost+found\r\n\u001b(B\u001b[mubuntu@serwer-2:~$ \u001b[1;25r\u001b[24;20H"
+    ],
+    [
+      2.3,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[23;20Hlogout\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.00282,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[23;1HConnection to 54.37.130.83 closed.\u001b[1;25r\u001b[24;1H"
+    ],
+    [
+      0.002036,
+      "\u001b[1m\u001b[7m%\u001b(B\u001b[m                                                                               \u001b[24;1H \r"
+    ],
+    [
+      0.013888,
+      "\u001b[1;24r\u001b[24;1H\u001b[K\u001b[32m\u001b[1m➜  \u001b[36m~\u001b(B\u001b[m \u001b[K\u001b[1;25r\u001b[24;6H\u001b[?2004h"
+    ],
+    [
+      0.810945,
+      "\u001b[1;24r\u001b[24;80H\n\u001b[1;25r\u001b[24;1H\u001b[?2004l"
+    ],
+    [
+      0.012527,
+      "\u001b[1;25r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000165,
+      "[exited]\r\n"
+    ],
+    [
+      0.000577,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"
+    ],
+    [
+      0.00017,
+      "\u001b]2;psuder@LAPTOP910323: ~\u0007"
+    ],
+    [
+      2.8e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.011934,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
+    ],
+    [
+      2.9e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.618611,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}
